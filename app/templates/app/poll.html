@@ -1,0 +1,212 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+    <style>
+    * {
+            margin: 0;
+        }
+        html, body, .container {
+            height: 100%;
+        }
+        .wrapper {
+            min-height: 100%;
+            height: auto !important;
+            height: 100%;
+            margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+        }
+        .footer, .push {
+            height: 50px; /* .push must be the same height as .footer */
+        }
+
+        #teacher-div td{
+            vertical-align: middle;
+            text-align: center;
+        }
+        .btn {
+            margin-top: 20px;
+        }
+    </style>
+
+    <div class="wrapper">
+        <div class="row" style="margin-bottom: 20px;">
+        <div class="col-md-12">
+        <div class="text-center" style="font-size: 14px; margin-bottom: 30px">
+            <h1 style="margin-top: 15px;margin-bottom: 15px">«Преподаватель года – глазами студентов!»</h1>
+            <p>
+                Привет, студент! Мы – Совет студенческих объединений ВГУЭС, проводим
+конкурс «Преподаватель года – глазами студентов!»
+            </p>
+            <p>
+                Для того, чтобы справедливо и честно выбрать «того САМОГО ЛУЧШЕГО» НАМ необходима Твоя помощь!
+            </p>
+            <p>
+                Просим ответить Тебя на вопросы данной анкеты. Опрос - анонимный и результаты преподаватели узнают только, получая награды на сцене ;)
+            </p>
+            <p>
+                Это твоя возможность – выбрать воистину ЛУЧШЕГО, так что будь объективен.
+            </p>
+            <p>
+               Отвечая на вопросы, пожалуйста, выберите те варианты ответов, которые соответствуют Твоему мнению.
+            </p>
+
+        </div>
+
+        {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+            <form id="badge-form" method="post" class="form-inline text-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        {% csrf_token %}
+                        <label for="{{ badge_form.badge_number.id_for_label }}">
+                            Введите номер бейджа:
+                        </label>
+                        <div class="form-group" style="margin-right: 10px">
+                            <input type="text" required class="form-control"  id="{{ badge_form.badge_number.id_for_label }}" name="{{ badge_form.badge_number.html_name }}" >
+                            {{ badge_form.badge_number.errors }}
+                        </div>
+                        <label for="{{ badge_form.student_name.id_for_label }}">
+                            ФИО:
+                        </label>
+                        <div class="form-group" style="margin-right: 10px">
+                            <input type="text" required class="form-control"  id="{{ badge_form.student_name.id_for_label }}" name="{{ badge_form.student_name.html_name }}"  style="max-width: 350px;width: 350px;">
+                            {{ badge_form.student_name.errors }}
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-success" id="badge-btn">Далее</button>
+                    </div>
+                </div>
+
+{#                <button type="button" class="btn" id="badge-btn-change" style="display: none">Изменить</button>#}
+            </form>
+
+        </div>
+    </div>
+    <div class="row" style="margin-bottom: 20px;">
+     <div class="col-md-12" id="group-div">
+
+     </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12" id="teacher-div">
+
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 50px;">
+        <div class="col-md-12">
+            <p class="text-center">
+
+            </p>
+
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+     <p class="text-center" style="margin-top: 20px;">
+          Если у Тебя возникли вопросы или проблема с заполнением анкеты, смело звони мне -
+Анкудинова Анастасия +7 (914) 322-17-19
+     </p>
+</div>
+
+
+
+{% endblock %}
+
+
+ {% block scripts %}
+<script>
+$('#badge-form').on('submit', function(e){
+    e.preventDefault();
+    $.ajax({
+        url: '{% url 'badge' %}',
+        type: 'POST',
+        dataType: 'json',
+        {#contentType: 'application/json',#}
+        data: $(this).serialize(),
+        success: function (data) {
+            if (data.success == true){
+                console.log('kek');
+
+                $('#badge-btn').hide();
+                $('#badge-btn-change').show();
+                $('#{{ badge_form.badge_number.id_for_label }}').attr('disabled', 'true')
+                $('#{{ badge_form.student_name.id_for_label }}').attr('disabled', 'true')
+                $('#group-div').html(data.html)
+                initTyprhead($('#group-div').find($('#group-input')));
+                groupInit();
+            } else {
+                alert('Ошибка, свяжитесь с Анкудиновой Анастасией +7 (914) 322-17-19')
+            }
+        },
+        error: function(data) {
+            console.log(data);
+        },
+        complete: function () {
+            console.log('comp');
+        }
+    });
+});
+
+function initTyprhead(x){
+    $(x).typeahead({
+        source: function (request, response) {
+            $.ajax({
+                url: '{% url 'group_list' %}',
+                dataType: "json",
+                type: "GET",
+                data: {
+                        'search': request
+                    },
+                contentType: "application/json",
+                success: function (data) {
+                    console.log(data);
+                    s = JSON.parse(data)
+                    response(s);
+                    // SET THE WIDTH AND HEIGHT OF UI AS "auto" ALONG WITH FONT.
+                    // YOU CAN CUSTOMIZE ITS PROPERTIES.
+                    $(".dropdown-menu").css("width", "auto");
+                    $(".dropdown-menu").css("height", "auto");
+                    $(".dropdown-menu").css("font", "15px Verdana");
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    alert(textStatus);
+                }
+            });
+        },
+        minLength: 1            // MINIMUM 1 CHARACTER TO START WITH.
+    });
+}
+function groupInit() {
+    $('#group-form').on('submit', function(e){
+        e.preventDefault();
+        $.ajax({
+            url: '{% url 'group' %}',
+            type: 'POST',
+            dataType: 'json',
+            {#contentType: 'application/json',#}
+            data: $(this).serialize(),
+            success: function (data) {
+                if (data.success){
+                    $('#group-btn').hide();
+                    $('#group-btn-change').show();
+                    $('#group-input').attr('disabled', 'true')
+                    $('#teacher-div').html(data.html)
+                } else {
+                    alert('Ошибка, проверте группу или свяжитесь с Анкудиновой Анастасией +7 (914) 322-17-19')
+                }
+            },
+            error: function(data) {
+                console.log(data);
+            },
+            complete: function () {
+                console.log('comp');
+            }
+        });
+    });
+
+}
+
+</script>
+ {% endblock %}

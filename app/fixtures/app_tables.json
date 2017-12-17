@@ -1,0 +1,10926 @@
+[
+{
+  "model": "app.institute",
+  "pk": 2,
+  "fields": {
+    "name": "\u0412\u0413\u0423\u042d\u0421"
+  }
+},
+{
+  "model": "app.department",
+  "pk": 14,
+  "fields": {
+    "name": "\u043a\u0430\u0444\u0435\u0434\u0440\u0430 \u0412\u044b\u0441\u0448\u0430\u044f \u0448\u043a\u043e\u043b\u0430 \u0442\u0435\u043b\u0435\u0432\u0438\u0434\u0435\u043d\u0438\u044f",
+    "institute": 2
+  }
+},
+{
+  "model": "app.department",
+  "pk": 15,
+  "fields": {
+    "name": "\u043a\u0430\u0444\u0435\u0434\u0440\u0430 \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433\u0430 \u0438 \u0442\u043e\u0440\u0433\u043e\u0432\u043b\u0438",
+    "institute": 2
+  }
+},
+{
+  "model": "app.department",
+  "pk": 16,
+  "fields": {
+    "name": "\u041a\u0430\u0444\u0435\u0434\u0440\u0430 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0438",
+    "institute": 2
+  }
+},
+{
+  "model": "app.department",
+  "pk": 17,
+  "fields": {
+    "name": "\u041a\u0430\u0444\u0435\u0434\u0440\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u0433\u043e \u044f\u0437\u044b\u043a\u0430",
+    "institute": 2
+  }
+},
+{
+  "model": "app.department",
+  "pk": 18,
+  "fields": {
+    "name": "\u041a\u0430\u0444\u0435\u0434\u0440\u0430 \u043c\u0435\u0436\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u044b\u0445 \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0439 \u0438 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u044f",
+    "institute": 2
+  }
+},
+{
+  "model": "app.department",
+  "pk": 19,
+  "fields": {
+    "name": "\u041a\u0430\u0444\u0435\u0434\u0440\u0430 \u0442\u0443\u0440\u0438\u0437\u043c\u0430 \u0438 \u044d\u043a\u043e\u043b\u043e\u0433\u0438\u0438",
+    "institute": 2
+  }
+},
+{
+  "model": "app.department",
+  "pk": 20,
+  "fields": {
+    "name": "\u0418\u043d\u0441\u0442\u0438\u0442\u0443\u0442 \u043f\u0440\u0430\u0432\u0430",
+    "institute": 2
+  }
+},
+{
+  "model": "app.department",
+  "pk": 21,
+  "fields": {
+    "name": "\u041a\u0430\u0444\u0435\u0434\u0440\u0430 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u044b\u0445 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0432 \u0438 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0439",
+    "institute": 2
+  }
+},
+{
+  "model": "app.department",
+  "pk": 22,
+  "fields": {
+    "name": "\u041a\u0430\u0444\u0435\u0434\u0440\u0430 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u044b \u0438 \u0441\u043f\u043e\u0440\u0442\u0430",
+    "institute": 2
+  }
+},
+{
+  "model": "app.department",
+  "pk": 23,
+  "fields": {
+    "name": "\u041a\u0430\u0444\u0435\u0434\u0440\u0430 \u0434\u0438\u0437\u0430\u0439\u043d\u0430 \u0438 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0439",
+    "institute": 2
+  }
+},
+{
+  "model": "app.department",
+  "pk": 24,
+  "fields": {
+    "name": "\u041a\u0430\u0444\u0435\u0434\u0440\u0430 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f",
+    "institute": 2
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 291,
+  "fields": {
+    "last_name": "\u0411\u0443\u043b\u0430\u0445 \u0421.\u041f.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 14
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 292,
+  "fields": {
+    "last_name": "\u041a\u0430\u043b\u0430\u0447\u0438\u043d\u0441\u043a\u0438\u0439 \u0410.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 14
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 293,
+  "fields": {
+    "last_name": "\u041b\u0435\u043e\u043d\u0442\u044c\u0435\u0432\u0430 \u0412.\u0422.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 14
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 294,
+  "fields": {
+    "last_name": "\u041f\u0430\u0432\u0435\u043b\u043a\u0438\u043d\u0430 \u041b.\u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 14
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 295,
+  "fields": {
+    "last_name": "\u0422\u0435\u043b\u0438\u0446\u044b\u043d\u0430 \u0422.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 14
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 296,
+  "fields": {
+    "last_name": "\u0423\u0448\u0430\u043d\u043e\u0432 \u041f.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 14
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 297,
+  "fields": {
+    "last_name": "\u0428\u0432\u0430\u0440\u0446 \u0411.\u041f.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 14
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 298,
+  "fields": {
+    "last_name": "\u0411\u0435\u043b\u043e\u0437\u0435\u0440\u0446\u0435\u0432\u0430 \u041d.\u041f.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 299,
+  "fields": {
+    "last_name": "\u0412\u0435\u0440\u0448\u0438\u043d\u0438\u043d\u0430 \u0410.\u0413.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 300,
+  "fields": {
+    "last_name": "\u0412\u0438\u043d\u0438\u0447\u0443\u043a \u041e.\u042e",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 301,
+  "fields": {
+    "last_name": "\u0413\u043b\u0443\u0445\u043e\u043c\u0430\u043d\u043e\u0432\u0430 \u0410.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 302,
+  "fields": {
+    "last_name": "\u0414\u0440\u0430\u0433\u0438\u043b\u0435\u0432 \u0418.\u0413.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 303,
+  "fields": {
+    "last_name": "\u0414\u0440\u0430\u0433\u0438\u043b\u0435\u0432\u0430 \u041b.\u042e.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 304,
+  "fields": {
+    "last_name": "\u0414\u0440\u0435\u043c\u043b\u044e\u0433\u0430 \u041e.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 305,
+  "fields": {
+    "last_name": "\u0418\u0441\u0430\u0435\u0432 \u0410.\u0410",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 306,
+  "fields": {
+    "last_name": "\u041a\u0438\u043c \u0410.\u0413.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 307,
+  "fields": {
+    "last_name": "\u041a\u043c\u0435\u0442\u044c \u0415.\u0411.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 308,
+  "fields": {
+    "last_name": "\u041b\u0430\u0442\u043a\u0438\u043d \u0410.\u041f.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 309,
+  "fields": {
+    "last_name": "\u041b\u043e\u043a\u0448\u0430 \u0410.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 310,
+  "fields": {
+    "last_name": "\u041c\u0430\u0440\u0442\u044b\u0448\u0435\u043d\u043a\u043e \u041d.\u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 311,
+  "fields": {
+    "last_name": "\u041c\u0430\u0440\u0447\u0435\u043d\u043a\u043e \u041e.\u0413.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 312,
+  "fields": {
+    "last_name": "\u0421\u0430\u043b\u043e\u0432 \u0410.\u041d.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 313,
+  "fields": {
+    "last_name": "\u0421\u0438\u0434\u043e\u0440\u043e\u0432 \u0412.\u041f.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 314,
+  "fields": {
+    "last_name": "\u0421\u043c\u043e\u043b\u044c\u044f\u043d\u0438\u043d\u043e\u0432\u0430 \u0415.\u041d.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 315,
+  "fields": {
+    "last_name": "\u0421\u043e\u0440\u043e\u043a\u0438\u043d \u041c.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 316,
+  "fields": {
+    "last_name": "\u0421\u0442\u0435\u043f\u0443\u043b\u0451\u0432\u0430 \u041b.\u0424.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 317,
+  "fields": {
+    "last_name": "\u0422\u0438\u043b\u0438\u043d\u0434\u0438\u0441 \u0422.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 318,
+  "fields": {
+    "last_name": "\u0425\u0443\u0434\u044f\u043a\u043e\u0432\u0430 \u0421.\u041a.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 15
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 319,
+  "fields": {
+    "last_name": "\u0410\u0441\u0442\u0430\u0445\u043e\u0432\u0430 \u0415.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 320,
+  "fields": {
+    "last_name": "\u0410\u0441\u0442\u0430\u0444\u0443\u0440\u043e\u0432\u0430 \u0418.\u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 321,
+  "fields": {
+    "last_name": "\u0410\u043b\u0435\u043a\u0441\u0435\u0435\u0432\u0430 \u041b.\u0424.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 322,
+  "fields": {
+    "last_name": "\u0411\u0435\u0434\u0440\u0430\u0447\u0443\u043a \u0418.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 323,
+  "fields": {
+    "last_name": "\u0411\u043e\u043d\u0434\u0430\u0440\u0435\u043d\u043a\u043e \u0422.\u041d.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 324,
+  "fields": {
+    "last_name": "\u0411\u0443\u0431\u043d\u043e\u0432\u0441\u043a\u0430\u044f \u0422.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 325,
+  "fields": {
+    "last_name": "\u0412\u0430\u0441\u0438\u043b\u0435\u043d\u043a\u043e \u041c.\u0415.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 326,
+  "fields": {
+    "last_name": "\u0412\u043e\u0434\u043e\u043f\u044c\u044f\u043d\u043e\u0432\u0430 \u0412.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 327,
+  "fields": {
+    "last_name": "\u0412\u043e\u043a\u0435\u0441 \u0418.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 328,
+  "fields": {
+    "last_name": "\u0412\u043e\u043b\u044b\u043d\u0447\u0443\u043a \u0410.\u0411.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 329,
+  "fields": {
+    "last_name": "\u0412\u043e\u0440\u043e\u0436\u0431\u0438\u0442 \u041e.\u042e.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 330,
+  "fields": {
+    "last_name": "\u0413\u043b\u0443\u043f\u0430\u043a \u0410.\u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 331,
+  "fields": {
+    "last_name": "\u0413\u0440\u0438\u0432\u0430\u043d\u043e\u0432 \u0420.\u0418.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 332,
+  "fields": {
+    "last_name": "\u0414\u0430\u043d\u0438\u043b\u043e\u0432\u0441\u043a\u0438\u0445 \u0422.\u0415.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 333,
+  "fields": {
+    "last_name": "\u0416\u0438\u043b\u0438\u043d\u0430 \u041b.\u041d.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 334,
+  "fields": {
+    "last_name": "\u041a\u043e\u043d\u0432\u0438\u0441\u0430\u0440\u043e\u0432\u0430 \u0415.\u0412",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 335,
+  "fields": {
+    "last_name": "\u041a\u043e\u043c\u0438\u0441\u0441\u0430\u0440\u043e\u0432\u0430 \u0412.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 336,
+  "fields": {
+    "last_name": "\u041a\u043e\u0440\u0435\u043d\u044c \u0410.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 337,
+  "fields": {
+    "last_name": "\u041a\u043e\u0440\u043d\u0435\u0439\u043a\u043e \u041e.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 338,
+  "fields": {
+    "last_name": "\u041a\u0440\u0430\u0432\u0447\u0435\u043d\u043a\u043e \u0410.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 339,
+  "fields": {
+    "last_name": "\u041a\u0440\u0430\u0441\u043e\u0432\u0430 \u0415.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 340,
+  "fields": {
+    "last_name": "\u041a\u0440\u0438\u0432\u043e\u0448\u0430\u043f\u043e\u0432\u0430 \u0421.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 341,
+  "fields": {
+    "last_name": "\u041a\u0443\u0437\u0443\u0431\u043e\u0432 \u0410.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 342,
+  "fields": {
+    "last_name": "\u041a\u0443\u0437\u044c\u043c\u0438\u0447\u0435\u0432\u0430 \u0418.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 343,
+  "fields": {
+    "last_name": "\u041b\u0435\u0432\u043a\u0438\u043d\u0430 \u0415.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 344,
+  "fields": {
+    "last_name": "\u041b\u0435\u0432\u0447\u0435\u043d\u043a\u043e \u0422.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 345,
+  "fields": {
+    "last_name": "\u041b\u0438\u0442\u0432\u0438\u043d \u0410.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 346,
+  "fields": {
+    "last_name": "\u041c\u0430\u043b\u044b\u0448\u0435\u0432\u0430 \u0412.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 347,
+  "fields": {
+    "last_name": "\u041d\u0430\u0443\u043c\u043e\u0432\u0430 \u0422.\u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 348,
+  "fields": {
+    "last_name": "\u041e\u0441\u0438\u043f\u043e\u0432 \u0412.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 349,
+  "fields": {
+    "last_name": "\u041f\u043e\u043b\u0435\u0449\u0443\u043a \u0422.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 350,
+  "fields": {
+    "last_name": "\u0421\u0430\u0432\u0430\u043b\u0435\u0439 \u0412.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 351,
+  "fields": {
+    "last_name": "\u0420\u043e\u043c\u0430\u043d\u043e\u0432\u0430 \u0413.\u0413",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 352,
+  "fields": {
+    "last_name": "\u0421\u0430\u043c\u0441\u043e\u043d\u043e\u0432\u0430 \u0418.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 353,
+  "fields": {
+    "last_name": "\u0421\u0442\u0440\u043e\u0433\u0430\u043d\u043e\u0432 \u0410.\u041e.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 354,
+  "fields": {
+    "last_name": "\u0422\u0435\u0440\u0435\u043d\u0442\u044c\u0435\u0432\u0430 \u0422.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 355,
+  "fields": {
+    "last_name": "\u0422\u0430\u0440\u0430\u0441\u043e\u0432\u0430 \u0415.\u042e.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 356,
+  "fields": {
+    "last_name": "\u0422\u0438\u0442\u043e\u0432\u0430 \u041d.\u042e.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 357,
+  "fields": {
+    "last_name": "\u0423\u043a\u0441\u0443\u043c\u0435\u043d\u043a\u043e \u0410.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 358,
+  "fields": {
+    "last_name": "\u0424\u043b\u0438\u043a \u0415.\u0413.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 359,
+  "fields": {
+    "last_name": "\u0428\u0430\u0448\u043b\u043e \u041d.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 16
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 360,
+  "fields": {
+    "last_name": "\u0410\u043d\u0442\u0438\u043f\u043e\u0432\u0430 \u0421.\u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 17
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 361,
+  "fields": {
+    "last_name": "\u0411\u043e\u0440\u0437\u043e\u0432\u0430 \u0422.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 17
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 362,
+  "fields": {
+    "last_name": "\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a \u0415.\u042e.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 17
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 363,
+  "fields": {
+    "last_name": "\u0416\u0443\u043a\u043e\u0432\u0430 \u0422.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 17
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 364,
+  "fields": {
+    "last_name": "\u0418\u0448\u043c\u0443\u0440\u0437\u0438\u043d\u0430 \u0418.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 17
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 365,
+  "fields": {
+    "last_name": "\u041a\u0430\u043b\u0430\u0447\u0438\u043d\u0441\u043a\u0430\u044f \u0418.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 17
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 366,
+  "fields": {
+    "last_name": "\u041a\u043e\u0432\u0430\u043b\u0435\u0432\u0430 \u0422.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 17
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 367,
+  "fields": {
+    "last_name": "\u041a\u043e\u043d\u0435\u0432\u0430 \u041d.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 17
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 368,
+  "fields": {
+    "last_name": "\u041a\u043e\u043d\u043e\u0432\u0430\u043b\u043e\u0432\u0430 \u042e.\u041e.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 17
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 369,
+  "fields": {
+    "last_name": "\u041a\u0440\u0438\u043d\u0438\u0446\u043a\u0430\u044f \u041c.\u042e.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 17
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 370,
+  "fields": {
+    "last_name": "\u041f\u0438\u043b\u044e\u0433\u0438\u043d\u0430 \u041c.\u042e.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 17
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 371,
+  "fields": {
+    "last_name": "\u041f\u0443\u0433\u0430\u0447\u0435\u0432\u0430 \u0415.\u041d.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 17
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 372,
+  "fields": {
+    "last_name": "\u0421\u0432\u0438\u0440\u0438\u0434\u043e\u0432\u0430 \u0410.\u042e.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 17
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 373,
+  "fields": {
+    "last_name": "\u0421\u043e\u043b\u0435\u0439\u043d\u0438\u043a \u0412.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 17
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 374,
+  "fields": {
+    "last_name": "\u0422\u044e\u0440\u0438\u043d \u041f.\u041c.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 17
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 375,
+  "fields": {
+    "last_name": "\u042f\u0441\u044c\u043a\u043e\u0432\u0430 \u0410.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 17
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 376,
+  "fields": {
+    "last_name": "\u0410\u043d\u0448\u0430\u043a\u043e\u0432\u0430 \u0421.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 377,
+  "fields": {
+    "last_name": "\u0410\u043d\u043a\u0443\u0434\u0438\u043d\u043e\u0432\u0430 \u0418.\u0424.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 378,
+  "fields": {
+    "last_name": "\u0411\u0435\u0440\u043a\u043e\u0432\u0438\u0447 \u0422.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 379,
+  "fields": {
+    "last_name": "\u0413\u043d\u0435\u0437\u0434\u0435\u0447\u043a\u043e \u041e.\u041d.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 380,
+  "fields": {
+    "last_name": "\u0413\u043e\u0440\u0431\u0443\u043d\u043e\u0432\u0430 \u041c.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 381,
+  "fields": {
+    "last_name": "\u0413\u0440\u0438\u0433\u043e\u0440\u044c\u0435\u0432\u0430 \u041c.\u0411.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 382,
+  "fields": {
+    "last_name": "\u0414\u0430\u043d\u0438\u043b\u0438\u043d\u0430 \u0415.\u041a.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 383,
+  "fields": {
+    "last_name": "\u041a\u0438\u0441\u0438\u043b\u0435\u0432\u0430 \u0418.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 384,
+  "fields": {
+    "last_name": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0430 \u0412.\u041a.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 385,
+  "fields": {
+    "last_name": "\u041a\u043e\u0442\u0435\u043d\u043a\u043e \u0421.\u041d.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 386,
+  "fields": {
+    "last_name": "\u041a\u0443\u0447\u0435\u0440\u0435\u043d\u043a\u043e \u0410.\u041b.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 387,
+  "fields": {
+    "last_name": "\u041b\u0435\u043e\u043d\u0442\u044c\u0435\u0432\u0430 \u0422.\u0418.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 388,
+  "fields": {
+    "last_name": "\u041c\u0430\u043a\u043e\u0432\u043a\u0438\u043d\u0430 \u041e.\u041b.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 389,
+  "fields": {
+    "last_name": "\u041c\u0438\u043b\u0435\u043d\u0438\u043d\u0430 \u0422.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 390,
+  "fields": {
+    "last_name": "\u041c\u043e\u043b\u043e\u0434\u044b\u0445 \u0412.\u0418.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 391,
+  "fields": {
+    "last_name": "\u041c\u043e\u0440\u043e\u0437\u043e\u0432\u0430 \u042e.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 392,
+  "fields": {
+    "last_name": "\u041c\u0443\u0445\u0430\u043c\u0435\u0442\u043e\u0432\u0430 \u0410.\u0418.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 393,
+  "fields": {
+    "last_name": "\u041c\u044d\u043d \u041c.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 394,
+  "fields": {
+    "last_name": "\u041c\u044f\u0441\u043d\u0438\u043a\u043e\u0432\u0430 \u0421.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 395,
+  "fields": {
+    "last_name": "\u041f\u0430\u043a \u041b.\u0415.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 396,
+  "fields": {
+    "last_name": "\u0420\u0430\u0434\u0430\u0435\u0432\u0430 \u042e.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 397,
+  "fields": {
+    "last_name": "\u0421\u043c\u043e\u0433\u0443\u043d\u043e\u0432\u0430 \u041e.\u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 398,
+  "fields": {
+    "last_name": "\u0422\u0440\u0435\u0433\u0443\u0431\u0435\u043d\u043a\u043e \u041d.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 399,
+  "fields": {
+    "last_name": "\u0423\u0442\u043a\u0438\u043d\u0430 \u0421.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 400,
+  "fields": {
+    "last_name": "\u0424\u0438\u043b\u0438\u043f\u043f\u043e\u0432\u0430 \u041e.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 401,
+  "fields": {
+    "last_name": "\u0424\u043e\u043c\u0438\u043d\u044b\u0445 \u042e.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 402,
+  "fields": {
+    "last_name": "\u0425\u0438\u0441\u0430\u043c\u0443\u0442\u0434\u0438\u043d\u043e\u0432\u0430 \u041d.\u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 403,
+  "fields": {
+    "last_name": "\u0428\u0435\u0445\u043e\u0432\u0446\u043e\u0432\u0430 \u0422.\u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 18
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 404,
+  "fields": {
+    "last_name": "\u0411\u043e\u043d\u0434\u0430\u0440\u044c \u041c\u0430\u0440\u0438\u044f \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 405,
+  "fields": {
+    "last_name": "\u0413\u043e\u043c\u0438\u043b\u0435\u0432\u0441\u043a\u0430\u044f \u0413\u0430\u043b\u0438\u043d\u0430 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 406,
+  "fields": {
+    "last_name": "\u0413\u0440\u0438\u0432\u0430\u043d\u043e\u0432 \u0418\u0433\u043e\u0440\u044c \u042e\u0440\u044c\u0435\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 407,
+  "fields": {
+    "last_name": "\u0418\u0432\u0430\u043d\u0435\u043d\u043a\u043e \u041d\u0430\u0442\u0430\u043b\u044c\u044f \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 408,
+  "fields": {
+    "last_name": "\u041a\u0430\u0435\u0440\u043e\u0432\u0430 \u0415\u043b\u0435\u043d\u0430 \u0412\u043b\u0430\u0434\u0438\u0441\u043b\u0430\u0432\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 409,
+  "fields": {
+    "last_name": "\u041c\u0438\u0445\u0438\u043d\u0430 \u0418\u043b\u043e\u043d\u0430 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 410,
+  "fields": {
+    "last_name": "\u041c\u043e\u0438\u0441\u0435\u0435\u043d\u043a\u043e \u041b\u0430\u0440\u0438\u0441\u0430 \u0418\u0433\u043d\u0430\u0442\u044c\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 411,
+  "fields": {
+    "last_name": "\u041f\u0435\u0442\u0440\u043e\u0432\u0430 \u0413\u0430\u043b\u0438\u043d\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 412,
+  "fields": {
+    "last_name": "\u041f\u0435\u0442\u0440\u0443\u043a \u0410\u043d\u0436\u0435\u043b\u0438\u043a\u0430 \u0412\u0438\u0442\u0430\u043b\u044c\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 413,
+  "fields": {
+    "last_name": "\u041f\u0443\u0448\u043a\u0430\u0440\u044c \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u0421\u0442\u0435\u043f\u0430\u043d\u043e\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 414,
+  "fields": {
+    "last_name": "\u0420\u0443\u0434\u0435\u043d\u043a\u043e \u041b\u044e\u0434\u043c\u0438\u043b\u0430 \u041b\u0430\u0437\u0430\u0440\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 415,
+  "fields": {
+    "last_name": "\u0421\u0443\u0440\u0436\u0438\u043a\u043e\u0432 \u0412\u0438\u043a\u0442\u043e\u0440 \u0418\u0432\u0430\u043d\u043e\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 416,
+  "fields": {
+    "last_name": "\u0422\u0430\u0440\u0430\u0441\u043e\u0432\u0430 \u0415\u043b\u0435\u043d\u0430 \u0412\u0430\u043b\u0435\u0440\u044c\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 417,
+  "fields": {
+    "last_name": "\u0424\u043e\u043c\u0438\u043d\u044b\u0445 \u0418\u0440\u0438\u043d\u0430 \u041b\u0435\u043e\u043d\u0438\u0434\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 418,
+  "fields": {
+    "last_name": "\u0428\u0435\u043c\u0435\u0442\u043e\u0432\u0430 \u0415\u043b\u0435\u043d\u0430 \u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 419,
+  "fields": {
+    "last_name": "\u042f\u043a\u0438\u043c\u0435\u043d\u043a\u043e \u041b\u044e\u0434\u043c\u0438\u043b\u0430 \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 420,
+  "fields": {
+    "last_name": "\u0411\u043e\u0439\u0446\u043e\u0432\u0430 \u0422\u0430\u0442\u044c\u044f\u043d\u0430 \u041c\u0430\u0440\u044c\u044f\u043d\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 421,
+  "fields": {
+    "last_name": "\u041a\u0438\u0440\u043f\u0438\u0447\u043d\u0438\u043a\u043e\u0432\u0430 \u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0430 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 422,
+  "fields": {
+    "last_name": "\u0422\u043e\u043b\u0441\u0442\u044b\u0445 \u0418\u0440\u0438\u043d\u0430 \u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 423,
+  "fields": {
+    "last_name": "\u0429\u0443\u0440 \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u0412\u0438\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 19
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 424,
+  "fields": {
+    "last_name": "\u0412\u0430\u0440\u0430\u0432\u0435\u043d\u043a\u043e \u0412\u0438\u043a\u0442\u043e\u0440 \u0415\u0432\u0433\u0435\u043d\u044c\u0435\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 425,
+  "fields": {
+    "last_name": "\u0412\u0440\u043e\u043d\u0441\u043a\u0430\u044f \u041c\u0430\u0440\u0438\u044f \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 426,
+  "fields": {
+    "last_name": "\u0413\u043e\u0440\u044f\u043d \u042d\u043b\u043b\u0430 \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 427,
+  "fields": {
+    "last_name": "\u041f\u0443\u0440\u0433\u0435 \u0410\u043d\u043d\u0430 \u0420\u043e\u043b\u0430\u043d\u0434\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 428,
+  "fields": {
+    "last_name": "\u0411\u0435\u043b\u043e\u0448\u0430\u043f\u043a\u043e \u042e\u0440\u0438\u0440\u0439 \u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 429,
+  "fields": {
+    "last_name": "\u0412\u0435\u0440\u0435\u0449\u0430\u0433\u0438\u043d\u0430 \u0410\u043b\u043b\u0430 \u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 430,
+  "fields": {
+    "last_name": "\u041f\u0435\u043a\u0430\u0440\u0441\u043a\u0438\u0439 \u0410\u043d\u0430\u0442\u043e\u043b\u0438\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 431,
+  "fields": {
+    "last_name": "\u0428\u0442\u044b\u043a\u043e\u0432 \u0412\u0438\u043a\u0442\u043e\u0440 \u041f\u0430\u0432\u043b\u043e\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 432,
+  "fields": {
+    "last_name": "\u0418\u043b\u043b\u0430\u0440\u0438\u043e\u043d\u043e\u0432 \u0410\u043b\u0435\u043a\u0441\u0435\u0439 \u0410\u043d\u0430\u0442\u043e\u043b\u044c\u0435\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 433,
+  "fields": {
+    "last_name": "\u041a\u043e\u0442\u043b\u044f\u0440 \u041d\u0430\u0434\u0435\u0436\u0434\u0430 \u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 434,
+  "fields": {
+    "last_name": "\u041b\u0438\u0447\u043a\u043e\u0432\u0430\u0445\u0430 \u0410\u043d\u043d\u0430 \u0412\u0438\u043a\u0442\u043e\u0440\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 435,
+  "fields": {
+    "last_name": "\u041c\u0430\u043c\u044b\u0447\u0435\u0432 \u0410\u043b\u0435\u043a\u0441\u0435\u0439 \u042e\u0440\u044c\u0435\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 436,
+  "fields": {
+    "last_name": "\u041c\u043e\u0440\u0434\u043e\u0432\u0446\u0435\u0432 \u0410\u043d\u0434\u0440\u0435\u0439 \u042e\u0440\u044c\u0435\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 437,
+  "fields": {
+    "last_name": "\u0422\u0438\u043c\u043e\u0444\u0435\u0435\u0432\u0430 \u0410\u043b\u043b\u0430 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 438,
+  "fields": {
+    "last_name": "\u0422\u0440\u0438\u0433\u0443\u0431 \u0413\u0435\u043e\u0440\u0433\u0438\u0439 \u042f\u043a\u043e\u0432\u043b\u0435\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 439,
+  "fields": {
+    "last_name": "\u0422\u0443\u0448\u043a\u043e\u0432 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0410\u043d\u0430\u0442\u043e\u044c\u0435\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 440,
+  "fields": {
+    "last_name": "\u0424\u0438\u043b\u0438\u043f\u043f\u043e\u0432\u0430 \u041c\u0430\u0440\u0438\u044f \u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 441,
+  "fields": {
+    "last_name": "\u0425\u043e\u0434\u043e\u0432\u0430 \u0421\u043e\u0444\u0438\u044f \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 442,
+  "fields": {
+    "last_name": "\u0428\u0435\u0441\u0442\u043e\u043f\u0430\u043b \u0421\u0435\u0440\u0433\u0435\u0439 \u0421\u0442\u0430\u043d\u0438\u0441\u043b\u0430\u0432\u043e\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 443,
+  "fields": {
+    "last_name": "\u041a\u0438\u0440\u0441\u0430\u043d\u043e\u0432\u0430 \u041b\u0438\u0434\u0438\u044f \u0418\u0433\u043d\u0430\u0442\u044c\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 444,
+  "fields": {
+    "last_name": "\u041a\u043e\u0440\u043e\u0442\u0438\u043d\u0430 \u041e\u043b\u044c\u0433\u0430 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 445,
+  "fields": {
+    "last_name": "\u041c\u0430\u043c\u044b\u0447\u0435\u0432\u0430 \u0414\u0438\u0430\u043d\u0430 \u0418\u0432\u0430\u043d\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 446,
+  "fields": {
+    "last_name": "\u041e\u043b\u0435\u0448\u043a\u0435\u0432\u0438\u0447 \u041d\u0430\u0434\u0435\u0436\u0434\u0430 \u0410\u043b\u0435\u043a\u0441\u0435\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 447,
+  "fields": {
+    "last_name": "\u0421\u0430\u043c\u043e\u0439\u043b\u0438\u0447\u0435\u043d\u043a\u043e \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d\u043e\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 448,
+  "fields": {
+    "last_name": "\u0424\u0430\u0434\u0435\u0435\u0432 \u0415\u0432\u0433\u0435\u043d\u0438\u0439 \u0412\u044f\u0447\u0435\u0441\u043b\u0430\u0432\u043e\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 449,
+  "fields": {
+    "last_name": "\u0427\u0435\u0440\u043d\u044f\u0432\u0441\u043a\u0430\u044f \u0412\u0430\u043b\u0435\u043d\u0442\u0438\u043d\u0430 \u0421\u0442\u0430\u043d\u0438\u0441\u043b\u0430\u0432\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 450,
+  "fields": {
+    "last_name": "\u042f\u0440\u043e\u0432\u0430\u044f \u0412\u0435\u0440\u043e\u043d\u0438\u043a\u0430 \u0415\u0432\u0433\u0435\u043d\u044c\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 451,
+  "fields": {
+    "last_name": "\u0410\u043b\u0435\u043a\u0441\u0435\u0435\u043d\u043a\u043e \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u041f\u0435\u0442\u0440\u043e\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 452,
+  "fields": {
+    "last_name": "\u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u043e\u0432\u0430 \u0418\u0440\u0438\u043d\u0430 \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 453,
+  "fields": {
+    "last_name": "\u0417\u043e\u043b\u043e\u0442\u043e\u0432\u0441\u043a\u0430\u044f \u0415\u043b\u0435\u043d\u0430 \u0410\u043d\u0430\u0442\u043e\u043b\u044c\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 454,
+  "fields": {
+    "last_name": "\u041a\u0440\u0430\u0432\u0447\u0435\u043d\u043a\u043e \u0410\u0440\u0442\u0443\u0440 \u0413\u0435\u043e\u0433\u0440\u0438\u0435\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 455,
+  "fields": {
+    "last_name": "\u041b\u0438\u0442\u0432\u0438\u043d\u043e\u0432\u0430 \u0421\u0432\u0435\u0442\u043b\u0430\u043d\u0430 \u0424\u0435\u0434\u043e\u0440\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 456,
+  "fields": {
+    "last_name": "\u0411\u0430\u0442\u0430\u0435\u0432 \u0421\u0435\u0440\u0433\u0435\u0439 \u0412\u0438\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 457,
+  "fields": {
+    "last_name": "\u0411\u0443\u0448\u043c\u0430\u043a\u043e\u0432 \u0410\u043d\u0442\u043e\u043d \u0410\u043b\u0435\u043a\u0441\u0435\u0435\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 458,
+  "fields": {
+    "last_name": "\u041f\u0430\u0432\u043b\u043e\u0432 \u0418\u0433\u043e\u0440\u044c \u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 459,
+  "fields": {
+    "last_name": "\u041f\u0440\u044f\u0436\u0435\u043d\u043d\u0438\u043a\u043e\u0432 \u041c\u0430\u043a\u0441\u0438\u043c \u041e\u043b\u0435\u0433\u043e\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 460,
+  "fields": {
+    "last_name": "\u042f\u0440\u043e\u0432\u0435\u043d\u043a\u043e \u0412\u0430\u0441\u0438\u043b\u0438\u0439 \u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u0438\u0447",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 461,
+  "fields": {
+    "last_name": "\u0428\u0430\u043f\u043e\u0432\u0430\u043b\u043e\u0432\u0430 \u0413\u0430\u043b\u0438\u043d\u0430 \u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 462,
+  "fields": {
+    "last_name": "\u0417\u0435\u043b\u0435\u043d\u0438\u043d\u0430 \u0415\u043b\u0435\u043d\u0430 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 463,
+  "fields": {
+    "last_name": "\u0427\u0435\u0440\u0435\u043c\u0438\u0441\u043a\u0438\u043d\u0430 \u0418\u0440\u0438\u043d\u0430 \u0418\u0433\u043e\u0440\u0435\u0432\u043d\u0430",
+    "first_name": "",
+    "middle_name": "",
+    "department": 20
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 464,
+  "fields": {
+    "last_name": "\u0413\u0440\u0438\u0432\u0430\u043d\u043e\u0432\u0430 \u041e. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 21
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 465,
+  "fields": {
+    "last_name": "\u041e\u0432\u0441\u044f\u043d\u043d\u0438\u043a\u043e\u0432\u0430 \u0413. \u041b.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 21
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 466,
+  "fields": {
+    "last_name": "\u041f\u043e\u0433\u043e\u0442\u043e\u0432\u043a\u0438\u043d\u0430 \u041d. \u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 21
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 467,
+  "fields": {
+    "last_name": "\u041f\u043e\u043f\u043e\u0432\u0430 \u0413. \u0418.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 21
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 468,
+  "fields": {
+    "last_name": "\u041f\u0440\u0435\u0441\u043d\u044f\u043a\u043e\u0432 \u0412. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 21
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 469,
+  "fields": {
+    "last_name": "\u0421\u043e\u043b\u043e\u043c\u0430\u0445\u0438\u043d \u042e. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 21
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 470,
+  "fields": {
+    "last_name": "\u0424\u0435\u0440\u0448\u0430\u043b\u043e\u0432 \u0410. \u042e.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 21
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 471,
+  "fields": {
+    "last_name": "\u0427\u0443\u0431\u0435\u043d\u043a\u043e \u0414. \u041d.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 21
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 472,
+  "fields": {
+    "last_name": "\u0427\u0443\u0431\u0435\u043d\u043a\u043e \u0415. \u0424.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 21
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 473,
+  "fields": {
+    "last_name": "\u0410\u043d\u0442\u043e\u043d\u043e\u0432 \u0418. \u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 21
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 474,
+  "fields": {
+    "last_name": "\u042f\u0446\u0435\u043d\u043a\u043e \u0410. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 21
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 475,
+  "fields": {
+    "last_name": "\u041a\u0430\u043c\u0438\u043d\u0441\u043a\u0438\u0439 \u041d. \u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 21
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 476,
+  "fields": {
+    "last_name": "\u0412\u0430\u0440\u043d\u0438\u043d\u0430 \u0410. \u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 477,
+  "fields": {
+    "last_name": "\u0417\u0430\u0432\u0430\u0434\u0441\u043a\u0430\u044f \u041b. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 478,
+  "fields": {
+    "last_name": "\u041a\u0430\u0440\u0438\u043a\u043e\u0432 \u0413. \u0413.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 479,
+  "fields": {
+    "last_name": "\u041c\u0430\u0442\u0432\u0435\u0435\u0432\u0430 \u041b. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 480,
+  "fields": {
+    "last_name": "\u041a\u043e\u0437\u043b\u043e\u0432 \u0412. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 481,
+  "fields": {
+    "last_name": "\u041c\u043e\u0433\u0438\u043b\u044c\u0447\u0435\u043d\u043a\u043e \u0413. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 482,
+  "fields": {
+    "last_name": "\u041c\u044b\u043b\u044c\u043d\u0438\u043a\u043e\u0432 \u0418. \u0415.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 483,
+  "fields": {
+    "last_name": "\u041c\u044b\u043b\u044c\u043d\u0438\u043a\u043e\u0432\u0430 \u041b. \u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 484,
+  "fields": {
+    "last_name": "\u041c\u044f\u0441\u043d\u0438\u043a\u043e\u0432 \u0414. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 485,
+  "fields": {
+    "last_name": "\u041f\u043b\u043e\u0442\u043d\u0438\u043a\u043e\u0432\u0430 \u041e. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 486,
+  "fields": {
+    "last_name": "\u0420\u0438\u0433\u0435\u043b\u044c \u0417. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 487,
+  "fields": {
+    "last_name": "\u0420\u0443\u0434\u044b\u0445 \u0422. \u041d.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 488,
+  "fields": {
+    "last_name": "\u0421\u0435\u043b\u0435\u0446\u043a\u0430\u044f \u0422. \u0413.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 489,
+  "fields": {
+    "last_name": "\u0427\u0443\u043c\u0430\u0448 \u0412. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 490,
+  "fields": {
+    "last_name": "\u0428\u0430\u0440\u0438\u043d\u0430 \u0415. \u041f.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 491,
+  "fields": {
+    "last_name": "\u0428\u0430\u0442\u0430\u0435\u0432\u0430 \u0413. \u0418.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 492,
+  "fields": {
+    "last_name": "\u0411\u0430\u0440\u0430\u0431\u0430\u0448 \u041e. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 493,
+  "fields": {
+    "last_name": "\u0411\u043e\u0440\u0449\u0435\u043d\u043a\u043e \u0421. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 22
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 494,
+  "fields": {
+    "last_name": "\u0412\u043e\u0437\u043d\u0435\u0441\u0435\u043d\u0441\u043a\u0430\u044f \u0422. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 495,
+  "fields": {
+    "last_name": "\u0412\u043e\u0440\u043e\u043d\u043a\u043e\u0432\u0430 \u0410. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 496,
+  "fields": {
+    "last_name": "\u0414\u0430\u043d\u0438\u043b\u043e\u0432\u0430 \u041e. \u041d.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 497,
+  "fields": {
+    "last_name": "\u0414\u043e\u0431\u0440\u044b\u043d\u0438\u043d\u0430 \u0413. \u0413.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 498,
+  "fields": {
+    "last_name": "\u0415\u043b\u043a\u0438\u043d\u0430 \u0410. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 499,
+  "fields": {
+    "last_name": "\u0416\u043e\u0433\u043e\u0432\u0430 \u041c. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 500,
+  "fields": {
+    "last_name": "\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0422. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 501,
+  "fields": {
+    "last_name": "\u0418\u0432\u0430\u043d\u043e\u0432\u0430 \u041e. \u0413.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 502,
+  "fields": {
+    "last_name": "\u041a\u0430\u043b\u0438\u043d\u0430 \u041d. \u0414.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 503,
+  "fields": {
+    "last_name": "\u041a\u043e\u043d\u043e\u043f\u043b\u0435\u0432\u0430 \u041d. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 504,
+  "fields": {
+    "last_name": "\u041a\u043b\u043e\u0447\u043a\u043e \u0418. \u041b.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 505,
+  "fields": {
+    "last_name": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0430 \u041b. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 506,
+  "fields": {
+    "last_name": "\u041a\u043e\u0447\u0435\u0442\u043a\u043e\u0432\u0430 \u0418. \u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 507,
+  "fields": {
+    "last_name": "\u041a\u0440\u0430\u0432\u0447\u0435\u043d\u043a\u043e \u0418. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 508,
+  "fields": {
+    "last_name": "\u041c\u0435\u043b\u044c\u043d\u0438\u043a\u043e\u0432\u0430 \u041b. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 509,
+  "fields": {
+    "last_name": "\u041c\u0435\u0441\u0435\u043d\u0435\u0432\u0430 \u041d. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 510,
+  "fields": {
+    "last_name": "\u041c\u0435\u0442\u043b\u044f\u0435\u0432\u0430 \u0422. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 511,
+  "fields": {
+    "last_name": "\u041c\u0438\u043b\u043e\u0432\u0430 \u041d. \u041f.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 512,
+  "fields": {
+    "last_name": "\u041f\u0435\u0442\u0443\u0445\u043e\u0432 \u0412. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 513,
+  "fields": {
+    "last_name": "\u041e\u0431\u0435\u0440\u0442\u0430\u0441 \u041e. \u0413.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 514,
+  "fields": {
+    "last_name": "\u041f\u043b\u0435\u0445\u0430\u043d\u043e\u0432\u0430 \u0412. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 515,
+  "fields": {
+    "last_name": "\u041f\u0435\u0442\u0443\u0445\u043e\u0432 \u041e. \u041e.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 516,
+  "fields": {
+    "last_name": "\u041f\u0440\u0435\u0441\u043d\u044f\u043a\u043e\u0432 \u0421. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 517,
+  "fields": {
+    "last_name": "\u041f\u0440\u0435\u0441\u043d\u044f\u043a\u043e\u0432\u0430 \u041b. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 518,
+  "fields": {
+    "last_name": "\u0420\u043e\u0437\u0430\u043d\u043e\u0432\u0430 \u0415. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 519,
+  "fields": {
+    "last_name": "\u0421\u043b\u0435\u0441\u0430\u0440\u0447\u0443\u043a \u0418. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 520,
+  "fields": {
+    "last_name": "\u0421\u0442\u0430\u0440\u043a\u043e\u0432\u0430 \u0413. \u041f.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 521,
+  "fields": {
+    "last_name": "\u0422\u0435\u0440\u0441\u043a\u0430\u044f \u041b. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 522,
+  "fields": {
+    "last_name": "\u0422\u043e\u043b\u0441\u0442\u044b\u0445 \u0418. \u041d.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 523,
+  "fields": {
+    "last_name": "\u0422\u0440\u0443\u0431\u0438\u0446\u043a\u0430\u044f \u041c. \u0413.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 524,
+  "fields": {
+    "last_name": "\u0424\u0430\u043b\u044c\u043a\u043e \u041b. \u042e.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 525,
+  "fields": {
+    "last_name": "\u0424\u0438\u043b\u043e\u043d\u0435\u043d\u043a\u043e \u0415. \u0418.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 526,
+  "fields": {
+    "last_name": "\u0424\u043e\u043c\u0438\u043d \u0415. \u0422.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 527,
+  "fields": {
+    "last_name": "\u0427\u0435\u0440\u043d\u044f\u0432\u0438\u043d\u0430 \u041b. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 528,
+  "fields": {
+    "last_name": "\u0428\u0435\u0440\u043e\u043c\u043e\u0432\u0430 \u0418. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 529,
+  "fields": {
+    "last_name": "\u0429\u0435\u043a\u0430\u043b\u0435\u0432\u0430 \u041c. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 530,
+  "fields": {
+    "last_name": "\u0410\u043b\u043f\u0430\u0442\u043e\u0432\u0430 \u0415. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 23
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 531,
+  "fields": {
+    "last_name": "\u0410\u0440\u043d\u0430\u0443\u0442 \u041c. \u041d.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 532,
+  "fields": {
+    "last_name": "\u0411\u0430\u0439\u043d\u0430\u0440\u043e\u0432\u0438\u0447 \u041d. \u041d.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 533,
+  "fields": {
+    "last_name": "\u0411\u0430\u043b\u0434\u0438\u043d\u0430 \u042e. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 534,
+  "fields": {
+    "last_name": "\u0411\u0430\u0440\u0430\u0443\u0441\u043e\u0432\u0430 \u0415. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 535,
+  "fields": {
+    "last_name": "\u0411\u0430\u0442\u0443\u0440\u0438\u043d\u0430 \u041e. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 536,
+  "fields": {
+    "last_name": "\u0411\u0435\u043b\u0438\u043a \u0415. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 537,
+  "fields": {
+    "last_name": "\u0412\u0430\u0440\u043a\u0443\u043b\u0435\u0432\u0438\u0447 \u0422. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 538,
+  "fields": {
+    "last_name": "\u0412\u0435\u0440\u043e\u043b\u0430\u0439\u043d\u0435\u043d \u0421. \u0418.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 539,
+  "fields": {
+    "last_name": "\u0412\u043e\u043b\u044b\u043d\u0447\u0443\u043a \u042f. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 540,
+  "fields": {
+    "last_name": "\u0413\u043e\u043b\u043e\u0431\u043e\u043a\u043e\u0432 \u0410. \u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 541,
+  "fields": {
+    "last_name": "\u0414\u0435\u0433\u0442\u0435\u0440\u0435\u043d\u043a\u043e \u041a. \u041d.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 542,
+  "fields": {
+    "last_name": "\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0410. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 543,
+  "fields": {
+    "last_name": "\u0418\u0432\u0435\u043b\u044c\u0441\u043a\u0430\u044f \u041d. \u0413.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 544,
+  "fields": {
+    "last_name": "\u041a\u0438\u0440\u0431\u0438\u0442\u043e\u0432\u0430 \u0421. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 545,
+  "fields": {
+    "last_name": "\u041a\u043e\u0440\u043e\u043b\u0451\u0432\u0430 \u042d. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 546,
+  "fields": {
+    "last_name": "\u041a\u0443\u0437\u043d\u0435\u0446\u043e\u0432\u0430 \u042e. \u041f.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 547,
+  "fields": {
+    "last_name": "\u041a\u043e\u0448\u0435\u0432\u0430\u044f \u0415. \u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 548,
+  "fields": {
+    "last_name": "\u041b\u0430\u0432\u0440\u0435\u043d\u0442\u044c\u0435\u0432 \u0410. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 549,
+  "fields": {
+    "last_name": "\u041b\u0430\u0437\u0430\u0440\u0435\u0432 \u0418. \u0413.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 550,
+  "fields": {
+    "last_name": "\u041b\u0430\u0442\u043a\u0438\u043d \u0410. \u041f.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 551,
+  "fields": {
+    "last_name": "\u041b\u0435\u0431\u0435\u0434\u0438\u043d\u0441\u043a\u0430\u044f \u042e. \u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 552,
+  "fields": {
+    "last_name": "\u041c\u0430\u0441\u0438\u043b\u043e\u0432\u0430 \u041c. \u0413.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 553,
+  "fields": {
+    "last_name": "\u041c\u0435\u0434\u0432\u0435\u0434\u0435\u0432\u0430 \u041b. \u041c.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 554,
+  "fields": {
+    "last_name": "\u041c\u0435\u0436\u043e\u043d\u043e\u0432\u0430 \u041b. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 555,
+  "fields": {
+    "last_name": "\u041c\u0438\u0440\u043e\u0448\u043d\u0438\u043a\u043e\u0432\u0430 \u0422. \u041a.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 556,
+  "fields": {
+    "last_name": "\u041d\u0430\u0443\u043c\u0435\u043d\u043a\u043e \u0418. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 557,
+  "fields": {
+    "last_name": "\u041d\u0435\u0434\u043e\u043b\u0443\u0436\u043a\u043e \u041e. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 558,
+  "fields": {
+    "last_name": "\u041f\u0435\u0442\u0440\u0443\u043a \u0413. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 559,
+  "fields": {
+    "last_name": "\u041d\u0438\u0433\u0430\u0439 \u0415. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 560,
+  "fields": {
+    "last_name": "\u041d\u0438\u043a\u043e\u043b\u0435\u043d\u043a\u043e \u0410. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 561,
+  "fields": {
+    "last_name": "\u041e\u0441\u043b\u043e\u043f\u043e\u0432\u0430 \u041c. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 562,
+  "fields": {
+    "last_name": "\u041f\u0430\u0448\u0443\u043a \u041d. \u0420.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 563,
+  "fields": {
+    "last_name": "\u041f\u043e\u043f\u043e\u0432\u0430 \u0418. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 564,
+  "fields": {
+    "last_name": "\u0420\u0443\u043a\u0430\u0432\u0438\u0446\u044b\u043d\u0430 \u041c. \u041d.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 565,
+  "fields": {
+    "last_name": "\u0420\u0430\u0445\u043c\u0430\u043d\u043e\u0432\u0430 \u041c. \u0421.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 566,
+  "fields": {
+    "last_name": "\u0421\u0430\u043b\u043e\u0432 \u0410. \u041d.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 567,
+  "fields": {
+    "last_name": "\u0421\u0430\u043b\u043e\u0432\u0430 \u041b. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 568,
+  "fields": {
+    "last_name": "\u0421\u043b\u0443\u0433\u0438\u043d \u041e. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 569,
+  "fields": {
+    "last_name": "\u0421\u043c\u0438\u0446\u043a\u0438\u0445 \u041a. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 570,
+  "fields": {
+    "last_name": "\u0421\u0442\u0435\u0446\u043a\u043e \u041d. \u0418.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 571,
+  "fields": {
+    "last_name": "\u0421\u0443\u043b\u0442\u0430\u043d\u043e\u0432\u0430 \u0415. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 572,
+  "fields": {
+    "last_name": "\u0424\u0430\u0440\u0434\u0437\u0438\u043d\u043e\u0432\u0430 \u0417. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 573,
+  "fields": {
+    "last_name": "\u0424\u0438\u043b\u0438\u0447\u0435\u0432\u0430 \u0422. \u041f.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 574,
+  "fields": {
+    "last_name": "\u0426\u0430\u0440\u0435\u0432\u0430 \u041d. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 575,
+  "fields": {
+    "last_name": "\u0428\u0443\u043c\u0438\u043a \u0415. \u0413.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 576,
+  "fields": {
+    "last_name": "\u0427\u0435\u0440\u043d\u044b\u0448\u043e\u0432\u0430 \u0410. \u041b.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 577,
+  "fields": {
+    "last_name": "\u0428\u0438\u043d\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u041d. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 578,
+  "fields": {
+    "last_name": "\u042f\u043a\u0438\u043c\u043e\u0432\u0430 \u0417. \u0412.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.teacher",
+  "pk": 579,
+  "fields": {
+    "last_name": "\u0410\u043d\u0434\u0440\u0435\u0435\u0432 \u0412. \u0410.",
+    "first_name": "",
+    "middle_name": "",
+    "department": 24
+  }
+},
+{
+  "model": "app.group",
+  "pk": 725,
+  "fields": {
+    "name": "\u0411\u0420\u041a-15-01",
+    "department": 14,
+    "teachers": [
+      291,
+      293,
+      294,
+      295,
+      296,
+      311,
+      337,
+      406,
+      478,
+      488,
+      541
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 726,
+  "fields": {
+    "name": "\u0411\u0422\u041b-15-01",
+    "department": 14,
+    "teachers": [
+      291,
+      293,
+      294,
+      295,
+      296,
+      297,
+      337,
+      406,
+      477,
+      478
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 727,
+  "fields": {
+    "name": "\u0411-\u0420\u041a|\u0411-\u0422\u041b-15",
+    "department": 14,
+    "teachers": [
+      291,
+      293,
+      294,
+      296
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 728,
+  "fields": {
+    "name": "\u0411\u0420\u041a/\u0411\u0422\u041b-15",
+    "department": 14,
+    "teachers": [
+      291,
+      293,
+      294,
+      295,
+      296,
+      319
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 729,
+  "fields": {
+    "name": "\u0411\u0422\u041b-17-01",
+    "department": 14,
+    "teachers": [
+      291,
+      293,
+      296,
+      297,
+      385,
+      476
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 730,
+  "fields": {
+    "name": "\u0411\u0422\u041b-17-02",
+    "department": 14,
+    "teachers": [
+      291,
+      293,
+      296,
+      297,
+      385,
+      476,
+      479
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 731,
+  "fields": {
+    "name": "\u0411-\u0422\u041b-15|17",
+    "department": 14,
+    "teachers": [
+      291
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 732,
+  "fields": {
+    "name": "\u0411\u0422\u041b-17-03",
+    "department": 14,
+    "teachers": [
+      291,
+      293,
+      296,
+      297,
+      388,
+      476
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 733,
+  "fields": {
+    "name": "\u0411\u0420\u041a-17-01",
+    "department": 14,
+    "teachers": [
+      291,
+      293,
+      294,
+      296,
+      380,
+      480,
+      488
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 734,
+  "fields": {
+    "name": "\u0411-\u0420\u041a|\u0411-\u0422\u041b-17",
+    "department": 14,
+    "teachers": [
+      291,
+      293,
+      296
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 735,
+  "fields": {
+    "name": "\u0411\u0422\u041b-15-01/2",
+    "department": 14,
+    "teachers": [
+      292,
+      297
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 736,
+  "fields": {
+    "name": "\u0411\u0422\u041b-15-01/3",
+    "department": 14,
+    "teachers": [
+      292
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 737,
+  "fields": {
+    "name": "\u0411\u0422\u041b-15-02",
+    "department": 14,
+    "teachers": [
+      292
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 738,
+  "fields": {
+    "name": "\u0411\u0422\u041b-16-01/2",
+    "department": 14,
+    "teachers": [
+      292,
+      295,
+      388,
+      394
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 739,
+  "fields": {
+    "name": "\u0411\u0422\u041b-16-01/1",
+    "department": 14,
+    "teachers": [
+      292,
+      293,
+      376,
+      395
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 740,
+  "fields": {
+    "name": "\u0411\u0420\u041a-16-01",
+    "department": 14,
+    "teachers": [
+      293,
+      294,
+      295,
+      296,
+      380,
+      432,
+      461,
+      478,
+      486,
+      488,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 741,
+  "fields": {
+    "name": "\u0411\u0422\u041b-16-01",
+    "department": 14,
+    "teachers": [
+      293,
+      295,
+      297,
+      376,
+      388,
+      394,
+      395,
+      432,
+      461,
+      479,
+      485,
+      488,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 742,
+  "fields": {
+    "name": "\u0411-\u0420\u041a|\u0411-\u0422\u041b-16",
+    "department": 14,
+    "teachers": [
+      293,
+      295
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 743,
+  "fields": {
+    "name": "\u0411\u0422\u041b-16-01/02",
+    "department": 14,
+    "teachers": [
+      293
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 744,
+  "fields": {
+    "name": "\u0411\u0422\u041b-14-01",
+    "department": 14,
+    "teachers": [
+      293,
+      444,
+      484,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 745,
+  "fields": {
+    "name": "\u0411\u0422\u041b-16-01-1",
+    "department": 14,
+    "teachers": [
+      295
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 746,
+  "fields": {
+    "name": "\u0411-\u0422\u041b|\u0411-\u0422\u041b-15",
+    "department": 14,
+    "teachers": [
+      295
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 747,
+  "fields": {
+    "name": "\u0411\u0422\u041b-17-02/4",
+    "department": 14,
+    "teachers": [
+      295,
+      297
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 748,
+  "fields": {
+    "name": "\u0411\u0422\u041b-17-02/3",
+    "department": 14,
+    "teachers": [
+      295,
+      297
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 749,
+  "fields": {
+    "name": "\u0411\u0422\u041b-17-02/1",
+    "department": 14,
+    "teachers": [
+      295
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 750,
+  "fields": {
+    "name": "\u0411\u0422\u041b-17-01/3",
+    "department": 14,
+    "teachers": [
+      295,
+      297
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 751,
+  "fields": {
+    "name": "\u0411\u0422\u041b-17-01/4",
+    "department": 14,
+    "teachers": [
+      295,
+      297
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 752,
+  "fields": {
+    "name": "\u0411\u0422\u041b-17-01/2",
+    "department": 14,
+    "teachers": [
+      295
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 753,
+  "fields": {
+    "name": "\u0411\u0422\u041b-17-01/1",
+    "department": 14,
+    "teachers": [
+      295,
+      297
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 754,
+  "fields": {
+    "name": "\u0411\u0422\u041b-17-03/4",
+    "department": 14,
+    "teachers": [
+      295,
+      297
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 755,
+  "fields": {
+    "name": "\u0411\u0422\u041b-17-03/3",
+    "department": 14,
+    "teachers": [
+      295,
+      297
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 756,
+  "fields": {
+    "name": "\u0411\u0422\u041b-17-03/2",
+    "department": 14,
+    "teachers": [
+      295,
+      297
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 757,
+  "fields": {
+    "name": "\u0411\u0422\u041b-17-03/1",
+    "department": 14,
+    "teachers": [
+      295,
+      297
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 758,
+  "fields": {
+    "name": "\u0411\u0420\u041a-15-01/2",
+    "department": 14,
+    "teachers": [
+      296
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 759,
+  "fields": {
+    "name": "\u0411\u0422\u041b-15-01/1",
+    "department": 14,
+    "teachers": [
+      297
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 760,
+  "fields": {
+    "name": "\u0411\u0422\u041b-16-01/4",
+    "department": 14,
+    "teachers": [
+      297
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 761,
+  "fields": {
+    "name": "\u0411\u0422\u041b-16-01/3",
+    "department": 14,
+    "teachers": [
+      297
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 762,
+  "fields": {
+    "name": "\u0411\u0422\u041b-16-01/5",
+    "department": 14,
+    "teachers": [
+      297
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 763,
+  "fields": {
+    "name": "\u0411\u0422\u041b-17-02/2",
+    "department": 14,
+    "teachers": [
+      297
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 764,
+  "fields": {
+    "name": "\u041c\u0422\u0414-15-\u041b\u041e",
+    "department": 15,
+    "teachers": [
+      298,
+      300,
+      302,
+      303,
+      304,
+      305,
+      307,
+      308,
+      309,
+      310,
+      313,
+      314,
+      315
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 765,
+  "fields": {
+    "name": "\u041c\u0422\u0414-17-\u041b\u041e",
+    "department": 15,
+    "teachers": [
+      298,
+      300,
+      302,
+      305,
+      306,
+      308,
+      309,
+      314,
+      315,
+      379
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 766,
+  "fields": {
+    "name": "\u0411\u0422\u0414-15-\u041b\u041e1",
+    "department": 15,
+    "teachers": [
+      298,
+      300,
+      301,
+      302,
+      303,
+      307,
+      309,
+      316,
+      317,
+      320,
+      337,
+      366,
+      369,
+      448,
+      450,
+      486,
+      488,
+      541,
+      552,
+      561
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 767,
+  "fields": {
+    "name": "\u0411\u0422\u0414-15-\u041b\u041e2",
+    "department": 15,
+    "teachers": [
+      298,
+      300,
+      301,
+      302,
+      303,
+      305,
+      307,
+      309,
+      316,
+      317,
+      337,
+      366,
+      369,
+      448,
+      451,
+      481,
+      486,
+      541,
+      552,
+      561
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 768,
+  "fields": {
+    "name": "\u0411-\u0422\u0414-15",
+    "department": 15,
+    "teachers": [
+      298,
+      300,
+      301,
+      305
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 769,
+  "fields": {
+    "name": "\u041c\u0422\u0414-16-\u041b\u041e",
+    "department": 15,
+    "teachers": [
+      298,
+      300,
+      302,
+      304,
+      305,
+      307,
+      308,
+      309,
+      310,
+      312,
+      313,
+      314,
+      315
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 770,
+  "fields": {
+    "name": "\u0411\u0422\u0412-16-01",
+    "department": 15,
+    "teachers": [
+      299,
+      302,
+      303,
+      304,
+      327,
+      365,
+      388,
+      444,
+      484,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 771,
+  "fields": {
+    "name": "\u0411-\u0422\u0412-14|15|16",
+    "department": 15,
+    "teachers": [
+      299
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 772,
+  "fields": {
+    "name": "\u0411\u0422\u0412-15-\u0422\u0412",
+    "department": 15,
+    "teachers": [
+      299,
+      302,
+      303,
+      304,
+      309,
+      314,
+      316,
+      317,
+      318,
+      349,
+      406,
+      416,
+      419,
+      481,
+      487,
+      536,
+      569
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 773,
+  "fields": {
+    "name": "\u0411-\u0422\u0412-15",
+    "department": 15,
+    "teachers": [
+      299,
+      302,
+      304,
+      349
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 774,
+  "fields": {
+    "name": "\u0411\u0422\u0412-15-\u0422\u0422",
+    "department": 15,
+    "teachers": [
+      299,
+      302,
+      303,
+      304,
+      309,
+      314,
+      316,
+      317,
+      318,
+      349,
+      406,
+      416,
+      419,
+      481,
+      487,
+      536,
+      569
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 775,
+  "fields": {
+    "name": "\u0411\u0422\u0412-17-\u0422\u0422",
+    "department": 15,
+    "teachers": [
+      299,
+      317,
+      399,
+      438,
+      480,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 776,
+  "fields": {
+    "name": "\u0411\u0422\u0412-16-\u0422\u0422",
+    "department": 15,
+    "teachers": [
+      299,
+      311,
+      315,
+      360,
+      388,
+      407,
+      480,
+      489
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 777,
+  "fields": {
+    "name": "\u041c\u0422\u0414-15-\u041a\u0414",
+    "department": 15,
+    "teachers": [
+      300,
+      303,
+      304,
+      305,
+      306,
+      309,
+      310,
+      315
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 778,
+  "fields": {
+    "name": "\u041c-\u0422\u0414-15",
+    "department": 15,
+    "teachers": [
+      300
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 779,
+  "fields": {
+    "name": "\u0411\u0422\u0414-15-\u041c\u04101",
+    "department": 15,
+    "teachers": [
+      300,
+      302,
+      303,
+      306,
+      307,
+      309,
+      311,
+      316,
+      317,
+      337,
+      364,
+      365,
+      448,
+      451,
+      478,
+      487,
+      488,
+      541,
+      552,
+      561
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 780,
+  "fields": {
+    "name": "\u0411-\u0422\u0412-16",
+    "department": 15,
+    "teachers": [
+      302,
+      304
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 781,
+  "fields": {
+    "name": "\u0411\u0422\u0414-16-01",
+    "department": 15,
+    "teachers": [
+      302,
+      309,
+      327,
+      365,
+      379,
+      446,
+      447,
+      487,
+      488,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 782,
+  "fields": {
+    "name": "\u0411\u0422\u0414-16-02",
+    "department": 15,
+    "teachers": [
+      302,
+      304,
+      313,
+      327,
+      363,
+      384,
+      385,
+      446,
+      447,
+      487,
+      488,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 783,
+  "fields": {
+    "name": "\u0411-\u041c\u041d|\u0411-\u0422\u0414-14|15|16",
+    "department": 15,
+    "teachers": [
+      302
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 784,
+  "fields": {
+    "name": "\u0411\u0422\u0414-16-\u041b\u041e",
+    "department": 15,
+    "teachers": [
+      302,
+      303,
+      306,
+      311,
+      320,
+      360,
+      380,
+      479,
+      487,
+      488,
+      536,
+      541
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 785,
+  "fields": {
+    "name": "\u0411\u0422\u0414-16-\u041c\u0410",
+    "department": 15,
+    "teachers": [
+      302,
+      303,
+      306,
+      311,
+      320,
+      360,
+      385,
+      479,
+      487,
+      488,
+      536,
+      541
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 786,
+  "fields": {
+    "name": "\u0411-\u0422\u0414-16",
+    "department": 15,
+    "teachers": [
+      302,
+      306,
+      313
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 787,
+  "fields": {
+    "name": "\u0411-\u0422\u0412|\u0411-\u0422\u0414-15",
+    "department": 15,
+    "teachers": [
+      303,
+      309
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 788,
+  "fields": {
+    "name": "\u0411-\u0422\u0412|\u0411-\u0422\u0414-15|16",
+    "department": 15,
+    "teachers": [
+      303,
+      536
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 789,
+  "fields": {
+    "name": "\u0411\u0422\u0414-17-01",
+    "department": 15,
+    "teachers": [
+      304,
+      311,
+      397,
+      437,
+      442,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 790,
+  "fields": {
+    "name": "\u0411\u0422\u0414-17-02",
+    "department": 15,
+    "teachers": [
+      304,
+      311,
+      380,
+      437,
+      442,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 791,
+  "fields": {
+    "name": "\u0411-\u0422\u0414-17",
+    "department": 15,
+    "teachers": [
+      304,
+      311
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 792,
+  "fields": {
+    "name": "\u0410\u042d\u0418\u0423-17-\u042d\u041a",
+    "department": 15,
+    "teachers": [
+      305,
+      398
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 793,
+  "fields": {
+    "name": "\u041c\u0424\u041a-17",
+    "department": 15,
+    "teachers": [
+      306,
+      308,
+      379
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 794,
+  "fields": {
+    "name": "\u041c\u042d\u0423-17-\u0423\u0410",
+    "department": 15,
+    "teachers": [
+      306,
+      308
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 795,
+  "fields": {
+    "name": "\u041c-\u0424\u041a|\u041c-\u042d\u0423-17",
+    "department": 15,
+    "teachers": [
+      306
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 796,
+  "fields": {
+    "name": "\u0411-\u0422\u0414-14|15",
+    "department": 15,
+    "teachers": [
+      307
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 797,
+  "fields": {
+    "name": "\u041c\u041c\u041e-17",
+    "department": 15,
+    "teachers": [
+      308,
+      402
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 798,
+  "fields": {
+    "name": "\u041c\u042d\u0423-17-\u041c\u042d",
+    "department": 15,
+    "teachers": [
+      308
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 799,
+  "fields": {
+    "name": "\u041c-\u041c\u041e|\u041c-\u0424\u041a|\u041c-\u042d\u0423-17",
+    "department": 15,
+    "teachers": [
+      308
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 800,
+  "fields": {
+    "name": "\u0411\u0422\u0422-15-01",
+    "department": 15,
+    "teachers": [
+      309,
+      341,
+      461,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      471,
+      472,
+      474,
+      475,
+      487,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 801,
+  "fields": {
+    "name": "\u0411\u0411\u0418/\u0411\u0422\u0422-14-15",
+    "department": 15,
+    "teachers": [
+      309
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 802,
+  "fields": {
+    "name": "\u0411\u0421\u0421-16-\u0421\u04101",
+    "department": 15,
+    "teachers": [
+      310,
+      325,
+      394,
+      450,
+      481,
+      487,
+      503,
+      510,
+      524,
+      560
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 803,
+  "fields": {
+    "name": "\u0411\u0421\u0421-16-\u0421\u04102",
+    "department": 15,
+    "teachers": [
+      310,
+      325,
+      381,
+      450,
+      481,
+      487,
+      503,
+      510,
+      524,
+      560
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 804,
+  "fields": {
+    "name": "\u0411\u0421\u0421-16-\u0418\u0423",
+    "department": 15,
+    "teachers": [
+      310,
+      325,
+      341,
+      370,
+      381,
+      386,
+      443,
+      450,
+      480,
+      485,
+      490,
+      491,
+      492,
+      503,
+      506,
+      508,
+      510,
+      516,
+      524,
+      560,
+      570
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 805,
+  "fields": {
+    "name": "\u0411\u0422\u0423-16-01",
+    "department": 15,
+    "teachers": [
+      310,
+      364,
+      390,
+      400,
+      404,
+      411,
+      412,
+      415,
+      416,
+      422,
+      438,
+      454,
+      461,
+      478,
+      488,
+      489,
+      506,
+      522,
+      569
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 806,
+  "fields": {
+    "name": "\u0411-\u0421\u0421|\u0411-\u0422\u0423-16",
+    "department": 15,
+    "teachers": [
+      310
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 807,
+  "fields": {
+    "name": "\u0411\u042d\u0423-15\u041c\u0411\u043a-2",
+    "department": 15,
+    "teachers": [
+      311,
+      323,
+      335,
+      357,
+      360,
+      463,
+      487,
+      491,
+      562
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 808,
+  "fields": {
+    "name": "\u0411\u0420\u041a|\u0411\u0422\u0414(\u041c\u0410)-16",
+    "department": 15,
+    "teachers": [
+      311
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 809,
+  "fields": {
+    "name": "\u0411\u041c\u041d-15-\u0423\u0411\u043a",
+    "department": 15,
+    "teachers": [
+      311,
+      364,
+      432,
+      443,
+      480,
+      568,
+      575
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 810,
+  "fields": {
+    "name": "\u0411\u041c\u041d(\u0423\u0431\u043a)|\u0411\u042d\u0423(\u041c\u0411\u043a-2)-15",
+    "department": 15,
+    "teachers": [
+      311
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 811,
+  "fields": {
+    "name": "\u0411\u0422\u0414-16+-01",
+    "department": 15,
+    "teachers": [
+      313
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 812,
+  "fields": {
+    "name": "\u0411-\u0422\u0414/\u0411\u0422\u0412-15",
+    "department": 15,
+    "teachers": [
+      317
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 813,
+  "fields": {
+    "name": "\u0411-\u0422\u0412|\u0411-\u0422\u0414-17|15",
+    "department": 15,
+    "teachers": [
+      317
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 814,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u041c\u04111",
+    "department": 16,
+    "teachers": [
+      319,
+      330,
+      331,
+      332,
+      341,
+      343,
+      348,
+      349,
+      354,
+      363,
+      376,
+      384,
+      403,
+      406,
+      432,
+      479,
+      484,
+      487,
+      488,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 815,
+  "fields": {
+    "name": "\u0411\u0413\u0423-16-\u041c\u0411\u043a",
+    "department": 16,
+    "teachers": [
+      319
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 816,
+  "fields": {
+    "name": "\u0411\u0413\u0423-16-02",
+    "department": 16,
+    "teachers": [
+      319,
+      358,
+      375,
+      380,
+      458,
+      485,
+      489,
+      490,
+      491,
+      520,
+      533,
+      539,
+      540,
+      547,
+      548,
+      557,
+      569,
+      570
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 817,
+  "fields": {
+    "name": "\u0411\u0423\u041f-16-01/2",
+    "department": 16,
+    "teachers": [
+      319,
+      375,
+      384,
+      487,
+      491,
+      520
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 818,
+  "fields": {
+    "name": "\u0411\u0423\u041f-16-01/1",
+    "department": 16,
+    "teachers": [
+      319,
+      375,
+      381,
+      487,
+      489,
+      520
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 819,
+  "fields": {
+    "name": "\u0411\u042d\u0423-14-\u041c\u0411\u043a",
+    "department": 16,
+    "teachers": [
+      319,
+      323,
+      327,
+      331,
+      333,
+      335,
+      337,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      348,
+      357,
+      359,
+      440,
+      487,
+      490,
+      533,
+      548,
+      570,
+      573
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 820,
+  "fields": {
+    "name": "\u0411\u042d\u0423-14-\u041c\u04111",
+    "department": 16,
+    "teachers": [
+      319,
+      323,
+      327,
+      328,
+      330,
+      331,
+      333,
+      335,
+      336,
+      337,
+      339,
+      340,
+      341,
+      342,
+      344,
+      348,
+      349,
+      350,
+      353,
+      357,
+      358,
+      476,
+      477,
+      478,
+      481,
+      490,
+      521
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 821,
+  "fields": {
+    "name": "\u0411\u042d\u0423-14-\u041c\u042d1",
+    "department": 16,
+    "teachers": [
+      319,
+      323,
+      327,
+      328,
+      330,
+      331,
+      333,
+      335,
+      336,
+      337,
+      339,
+      340,
+      341,
+      344,
+      348,
+      349,
+      351,
+      353,
+      358,
+      359,
+      478,
+      481,
+      482,
+      490,
+      521,
+      573
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 822,
+  "fields": {
+    "name": "\u0411-\u042d\u0423|\u0411-\u041c\u041d-16",
+    "department": 16,
+    "teachers": [
+      319,
+      344
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 823,
+  "fields": {
+    "name": "\u0411\u0422\u0422-16-01",
+    "department": 16,
+    "teachers": [
+      319,
+      362,
+      370,
+      402,
+      416,
+      443,
+      464,
+      467,
+      469,
+      470,
+      471,
+      472,
+      474,
+      481,
+      485,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 824,
+  "fields": {
+    "name": "\u0411\u042d\u041c-16-01",
+    "department": 16,
+    "teachers": [
+      319,
+      362,
+      386,
+      387,
+      406,
+      438,
+      461,
+      467,
+      469,
+      472,
+      474,
+      485,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 825,
+  "fields": {
+    "name": "\u0411\u042d\u041a-16-01",
+    "department": 16,
+    "teachers": [
+      319,
+      363,
+      375,
+      399,
+      406,
+      407,
+      410,
+      413,
+      416,
+      419,
+      432,
+      478,
+      481
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 826,
+  "fields": {
+    "name": "\u0411-\u0422\u041b|\u0411\u0420\u041a/\u0411-\u0422\u0422|\u0411-\u042d\u041f|\u0411-\u042d\u041c-\u0411\u041f\u0421-15",
+    "department": 16,
+    "teachers": [
+      319
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 827,
+  "fields": {
+    "name": "\u0411-\u041f\u0421-15",
+    "department": 16,
+    "teachers": [
+      319,
+      478,
+      491
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 828,
+  "fields": {
+    "name": "\u0411\u0414\u0417-\u0411\u0414\u041a-15",
+    "department": 16,
+    "teachers": [
+      319,
+      371,
+      476,
+      492
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 829,
+  "fields": {
+    "name": "\u0411\u042d\u0423-14-\u042d\u041f1",
+    "department": 16,
+    "teachers": [
+      319,
+      320,
+      321,
+      323,
+      324,
+      325,
+      326,
+      327,
+      332,
+      336,
+      337,
+      339,
+      340,
+      342,
+      343,
+      347,
+      349,
+      351,
+      352,
+      356,
+      357,
+      358,
+      476,
+      478,
+      490,
+      521,
+      533,
+      535,
+      546,
+      569,
+      573
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 830,
+  "fields": {
+    "name": "\u0411-\u042d\u0423-14",
+    "department": 16,
+    "teachers": [
+      319,
+      322,
+      324,
+      333,
+      339,
+      349,
+      352,
+      357
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 831,
+  "fields": {
+    "name": "\u0411\u041e\u0420-14-01",
+    "department": 16,
+    "teachers": [
+      320,
+      356,
+      478,
+      489,
+      490,
+      491,
+      539,
+      540,
+      545,
+      548,
+      553,
+      560,
+      561,
+      570,
+      572,
+      577,
+      579
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 832,
+  "fields": {
+    "name": "\u0411\u0413\u0423-15-\u0421\u0418",
+    "department": 16,
+    "teachers": [
+      320,
+      487,
+      516,
+      544,
+      553,
+      570,
+      571,
+      577,
+      579
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 833,
+  "fields": {
+    "name": "\u0411\u041e\u0420-15-01",
+    "department": 16,
+    "teachers": [
+      320,
+      356,
+      363,
+      369,
+      426,
+      446,
+      487,
+      491,
+      539,
+      540,
+      548,
+      558,
+      570,
+      571,
+      572,
+      576,
+      577
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 834,
+  "fields": {
+    "name": "\u0411-\u0413\u0423|\u0411-\u041e\u0420|\u0411-\u0422\u0414-15|14",
+    "department": 16,
+    "teachers": [
+      320
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 835,
+  "fields": {
+    "name": "\u0411\u0413\u0423-15-01/2",
+    "department": 16,
+    "teachers": [
+      320
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 836,
+  "fields": {
+    "name": "\u0411\u0413\u0423-15-01/1",
+    "department": 16,
+    "teachers": [
+      320
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 837,
+  "fields": {
+    "name": "\u0411\u042d\u0423-14-\u0411\u04231",
+    "department": 16,
+    "teachers": [
+      320,
+      321,
+      323,
+      324,
+      325,
+      326,
+      331,
+      332,
+      334,
+      336,
+      339,
+      340,
+      342,
+      343,
+      344,
+      346,
+      349,
+      351,
+      355,
+      356,
+      357,
+      358,
+      479,
+      482,
+      483,
+      487,
+      488,
+      490,
+      521,
+      569
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 838,
+  "fields": {
+    "name": "\u0411\u0423\u041f-16-01",
+    "department": 16,
+    "teachers": [
+      320,
+      330,
+      375,
+      381,
+      384,
+      446,
+      458,
+      487,
+      489,
+      490,
+      491,
+      492,
+      520,
+      531,
+      552,
+      553,
+      557,
+      569,
+      574
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 839,
+  "fields": {
+    "name": "\u0411\u0423\u041f-16-02",
+    "department": 16,
+    "teachers": [
+      320,
+      384,
+      458,
+      487,
+      491,
+      552,
+      553,
+      557
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 840,
+  "fields": {
+    "name": "\u0411\u042d\u0423-15-\u041c\u0411",
+    "department": 16,
+    "teachers": [
+      320,
+      323,
+      327,
+      330,
+      331,
+      335,
+      339,
+      344,
+      346,
+      353,
+      357,
+      358,
+      463,
+      481,
+      487,
+      488,
+      493,
+      533,
+      575
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 841,
+  "fields": {
+    "name": "\u0411-\u0413\u0423|\u0411-\u0422\u0414|\u0411-\u0423\u041f-16",
+    "department": 16,
+    "teachers": [
+      320
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 842,
+  "fields": {
+    "name": "\u0411-\u042d\u0423-16",
+    "department": 16,
+    "teachers": [
+      320,
+      327,
+      332,
+      337,
+      339,
+      348
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 843,
+  "fields": {
+    "name": "\u0411\u042d\u0423-15",
+    "department": 16,
+    "teachers": [
+      320
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 844,
+  "fields": {
+    "name": "\u0411\u042d\u0423-14-\u042d\u043f\u044d",
+    "department": 16,
+    "teachers": [
+      320
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 845,
+  "fields": {
+    "name": "\u0411\u042d\u0423-14-\u042d\u041f",
+    "department": 16,
+    "teachers": [
+      320,
+      323,
+      324
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 846,
+  "fields": {
+    "name": "\u0411\u042d\u0423-15-\u0411\u04231",
+    "department": 16,
+    "teachers": [
+      321,
+      323,
+      325,
+      327,
+      330,
+      340,
+      341,
+      346,
+      347,
+      357,
+      366,
+      463,
+      481,
+      486,
+      536,
+      561,
+      569,
+      575
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 847,
+  "fields": {
+    "name": "\u0411\u0413\u0423-14-01",
+    "department": 16,
+    "teachers": [
+      322,
+      427,
+      456,
+      489,
+      490,
+      541,
+      543,
+      557,
+      560,
+      563,
+      565,
+      571,
+      573,
+      579
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 848,
+  "fields": {
+    "name": "\u0411\u0413\u0423-14-\u0416\u04251",
+    "department": 16,
+    "teachers": [
+      322,
+      427,
+      458,
+      476,
+      490,
+      538,
+      541,
+      543,
+      557,
+      560,
+      563,
+      565,
+      570,
+      571,
+      573,
+      576,
+      579
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 849,
+  "fields": {
+    "name": "\u0411-\u0413\u0423-14",
+    "department": 16,
+    "teachers": [
+      322,
+      484,
+      489,
+      543,
+      557,
+      565,
+      573
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 850,
+  "fields": {
+    "name": "\u0411\u042d\u0423-14-\u0424\u041a1",
+    "department": 16,
+    "teachers": [
+      322,
+      323,
+      326,
+      327,
+      332,
+      333,
+      334,
+      336,
+      338,
+      340,
+      342,
+      343,
+      352,
+      357,
+      359,
+      485,
+      488,
+      490,
+      568
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 851,
+  "fields": {
+    "name": "\u0411\u042d\u0423-14-\u042d\u04111",
+    "department": 16,
+    "teachers": [
+      322,
+      323,
+      326,
+      327,
+      330,
+      332,
+      334,
+      336,
+      338,
+      340,
+      342,
+      343,
+      344,
+      348,
+      352,
+      353,
+      357,
+      476,
+      478,
+      483,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 852,
+  "fields": {
+    "name": "\u0411\u042d\u0423-14-\u041f\u04111",
+    "department": 16,
+    "teachers": [
+      323,
+      339,
+      482,
+      485,
+      487,
+      490,
+      521
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 853,
+  "fields": {
+    "name": "\u0411\u042d\u0423-15\u041c\u0411\u043a",
+    "department": 16,
+    "teachers": [
+      323
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 854,
+  "fields": {
+    "name": "\u0411\u042d\u0423-15-\u041c\u042d",
+    "department": 16,
+    "teachers": [
+      323,
+      330,
+      331,
+      332,
+      335,
+      337,
+      344,
+      349,
+      357,
+      358,
+      463,
+      486,
+      488,
+      533,
+      562
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 855,
+  "fields": {
+    "name": "\u0411\u042d\u0423-15-\u0424\u041a",
+    "department": 16,
+    "teachers": [
+      323,
+      327,
+      330,
+      332,
+      335,
+      340,
+      345,
+      346,
+      351,
+      357,
+      364,
+      463,
+      478,
+      479,
+      485,
+      488,
+      533,
+      562
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 856,
+  "fields": {
+    "name": "\u0411\u042d\u0423-15-\u0411\u04232",
+    "department": 16,
+    "teachers": [
+      323,
+      327,
+      330,
+      332,
+      346,
+      479,
+      493,
+      536,
+      569
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 857,
+  "fields": {
+    "name": "\u0411\u042d\u0423-15-\u042d\u041f",
+    "department": 16,
+    "teachers": [
+      323,
+      325,
+      327,
+      331,
+      332,
+      338,
+      340,
+      344,
+      346,
+      357,
+      359,
+      364,
+      451,
+      463,
+      486,
+      490,
+      493,
+      533,
+      536,
+      561,
+      569,
+      575
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 858,
+  "fields": {
+    "name": "\u0411-\u042d\u0423-14|15(1)",
+    "department": 16,
+    "teachers": [
+      323
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 859,
+  "fields": {
+    "name": "\u0411\u042d\u0423-14/15-\u041c\u0411\u041a",
+    "department": 16,
+    "teachers": [
+      323
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 860,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u042d\u04111",
+    "department": 16,
+    "teachers": [
+      323,
+      332,
+      333,
+      337,
+      343,
+      348,
+      354,
+      355,
+      356,
+      357,
+      384,
+      385,
+      391,
+      416,
+      432,
+      487,
+      488,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 861,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u042d\u04112",
+    "department": 16,
+    "teachers": [
+      323,
+      332,
+      333,
+      337,
+      343,
+      348,
+      349,
+      354,
+      357,
+      358,
+      382,
+      395,
+      416,
+      432,
+      481,
+      484,
+      487,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 862,
+  "fields": {
+    "name": "\u0411\u042d\u0423-14-\u042d\u041f\u044d",
+    "department": 16,
+    "teachers": [
+      323,
+      327,
+      339,
+      340,
+      341,
+      343,
+      351,
+      356,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 863,
+  "fields": {
+    "name": "\u0411\u041c\u041d-14-\u0424\u041c1",
+    "department": 16,
+    "teachers": [
+      323,
+      342,
+      490,
+      491,
+      532,
+      534,
+      535,
+      537,
+      541,
+      546,
+      549,
+      551,
+      555,
+      557,
+      561,
+      563,
+      567,
+      568,
+      573,
+      575
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 864,
+  "fields": {
+    "name": "\u0411\u041c\u041d-14-\u0423\u04111",
+    "department": 16,
+    "teachers": [
+      323,
+      342,
+      490,
+      491,
+      532,
+      534,
+      535,
+      537,
+      541,
+      542,
+      546,
+      555,
+      557,
+      559,
+      563,
+      564,
+      565,
+      566,
+      568,
+      570,
+      573,
+      575
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 865,
+  "fields": {
+    "name": "\u0411\u041c\u041d-15-\u0424\u041c",
+    "department": 16,
+    "teachers": [
+      324,
+      326,
+      334,
+      344,
+      364,
+      451,
+      491,
+      516,
+      531,
+      535,
+      541,
+      546,
+      555,
+      557,
+      561,
+      566,
+      575
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 866,
+  "fields": {
+    "name": "\u0411\u0411\u0418-14-01",
+    "department": 16,
+    "teachers": [
+      325,
+      424,
+      479,
+      485,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 867,
+  "fields": {
+    "name": "\u0411-\u0411\u0418|\u0411-\u042d\u0423-14",
+    "department": 16,
+    "teachers": [
+      325,
+      521
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 868,
+  "fields": {
+    "name": "\u0411-\u0421\u0421-16",
+    "department": 16,
+    "teachers": [
+      325,
+      503,
+      510,
+      524
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 869,
+  "fields": {
+    "name": "\u0411-\u042d\u0423-15",
+    "department": 16,
+    "teachers": [
+      325,
+      335,
+      340,
+      346,
+      347,
+      357,
+      575
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 870,
+  "fields": {
+    "name": "\u0411\u041c\u041d-15-\u0423\u04111",
+    "department": 16,
+    "teachers": [
+      326,
+      334,
+      344,
+      366,
+      451,
+      486,
+      491,
+      516,
+      533,
+      534,
+      541,
+      546,
+      551,
+      555,
+      557,
+      561,
+      566,
+      568,
+      573,
+      575
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 871,
+  "fields": {
+    "name": "\u0411\u0421\u0421-16-\u0421\u0410",
+    "department": 16,
+    "teachers": [
+      327,
+      370,
+      381,
+      394,
+      443,
+      487,
+      490,
+      506,
+      510,
+      519,
+      528,
+      570
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 872,
+  "fields": {
+    "name": "\u0411\u041f\u042e\u041f-16-01",
+    "department": 16,
+    "teachers": [
+      327,
+      382,
+      392,
+      406,
+      424,
+      427,
+      430,
+      431,
+      434,
+      435,
+      436,
+      437,
+      442,
+      454,
+      457,
+      459,
+      477,
+      478
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 873,
+  "fields": {
+    "name": "\u0411\u0417\u0420-16-01",
+    "department": 16,
+    "teachers": [
+      327,
+      341,
+      377,
+      384,
+      385,
+      387,
+      388,
+      389,
+      394,
+      433,
+      439,
+      440,
+      445,
+      485,
+      488,
+      490,
+      548
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 874,
+  "fields": {
+    "name": "\u0411\u041b\u0413-15",
+    "department": 16,
+    "teachers": [
+      327,
+      362,
+      364,
+      366,
+      367,
+      369,
+      374,
+      375,
+      386,
+      387,
+      476,
+      487,
+      541
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 875,
+  "fields": {
+    "name": "\u0411\u0414\u0417-14-01",
+    "department": 16,
+    "teachers": [
+      327,
+      446,
+      476,
+      490,
+      494,
+      495,
+      501,
+      507,
+      509,
+      511,
+      512,
+      513,
+      514,
+      525,
+      527
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 876,
+  "fields": {
+    "name": "\u0411\u0414\u0417-14-02",
+    "department": 16,
+    "teachers": [
+      327,
+      446,
+      476,
+      490,
+      494,
+      495,
+      501,
+      507,
+      509,
+      512,
+      513,
+      525,
+      527,
+      529
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 877,
+  "fields": {
+    "name": "\u0411\u0414\u041a-14-01",
+    "department": 16,
+    "teachers": [
+      327,
+      446,
+      476,
+      490,
+      496,
+      500,
+      505,
+      518,
+      519,
+      524,
+      577
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 878,
+  "fields": {
+    "name": "\u0411-\u0414\u0417-14",
+    "department": 16,
+    "teachers": [
+      327,
+      476,
+      482,
+      501
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 879,
+  "fields": {
+    "name": "\u0411\u0414\u041a-14/\u0411\u041b\u0413-15",
+    "department": 16,
+    "teachers": [
+      327
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 880,
+  "fields": {
+    "name": "\u0411\u042e\u041f-16-04",
+    "department": 16,
+    "teachers": [
+      327,
+      392,
+      395,
+      407,
+      424,
+      426,
+      427,
+      430,
+      434,
+      435,
+      436,
+      437,
+      442,
+      454,
+      457,
+      458,
+      477,
+      487
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 881,
+  "fields": {
+    "name": "\u0411\u0421\u0421-16-\u0421\u0410/1",
+    "department": 16,
+    "teachers": [
+      327,
+      370,
+      394,
+      489,
+      506,
+      519,
+      528,
+      570
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 882,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u0411\u04231",
+    "department": 16,
+    "teachers": [
+      327,
+      330,
+      332,
+      338,
+      346,
+      358,
+      365,
+      394,
+      406,
+      416,
+      419,
+      432,
+      478,
+      481,
+      484,
+      490,
+      536,
+      573
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 883,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u0424\u041a2",
+    "department": 16,
+    "teachers": [
+      327,
+      332,
+      337,
+      339,
+      343,
+      345,
+      354,
+      355,
+      356,
+      357,
+      358,
+      379,
+      384,
+      416,
+      432,
+      484,
+      485,
+      488,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 884,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u0424\u041a1",
+    "department": 16,
+    "teachers": [
+      327,
+      332,
+      334,
+      337,
+      339,
+      343,
+      344,
+      345,
+      357,
+      365,
+      382,
+      399,
+      416,
+      432,
+      485,
+      488,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 885,
+  "fields": {
+    "name": "\u0411\u0417\u0420-14-01",
+    "department": 16,
+    "teachers": [
+      328,
+      353,
+      433,
+      439,
+      440,
+      441,
+      487,
+      490,
+      516
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 886,
+  "fields": {
+    "name": "\u0411-\u041c\u041d-15",
+    "department": 16,
+    "teachers": [
+      329,
+      334,
+      478,
+      489,
+      491,
+      561,
+      566,
+      568
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 887,
+  "fields": {
+    "name": "\u0411\u042d\u0423-15-\u042d\u0411",
+    "department": 16,
+    "teachers": [
+      330,
+      335,
+      336,
+      340,
+      344,
+      346,
+      357,
+      359,
+      364,
+      463,
+      481,
+      486,
+      541,
+      575
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 888,
+  "fields": {
+    "name": "\u0411\u0413\u0423-16-01",
+    "department": 16,
+    "teachers": [
+      330,
+      358,
+      363,
+      371,
+      381,
+      391,
+      458,
+      485,
+      489,
+      490,
+      520,
+      533,
+      539,
+      547,
+      548,
+      557,
+      569,
+      570,
+      571
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 889,
+  "fields": {
+    "name": "\u0411\u042e\u041f-16-03",
+    "department": 16,
+    "teachers": [
+      331,
+      397,
+      407,
+      424,
+      426,
+      427,
+      430,
+      434,
+      435,
+      436,
+      437,
+      442,
+      454,
+      457,
+      458,
+      477,
+      487
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 890,
+  "fields": {
+    "name": "\u0411\u0421\u0421-16-\u0421\u0410/2",
+    "department": 16,
+    "teachers": [
+      331,
+      370,
+      381,
+      481,
+      506,
+      519,
+      528,
+      570
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 891,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u041c\u0411\u043a",
+    "department": 16,
+    "teachers": [
+      331,
+      332,
+      341,
+      348,
+      349,
+      354,
+      363,
+      364,
+      406,
+      432,
+      479,
+      487,
+      488,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 892,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u041c\u042d1",
+    "department": 16,
+    "teachers": [
+      331,
+      332,
+      333,
+      341,
+      343,
+      346,
+      348,
+      378,
+      391,
+      407,
+      432,
+      479,
+      487,
+      488,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 893,
+  "fields": {
+    "name": "\u0411\u042d\u0423-15-\u041c\u0411\u043a",
+    "department": 16,
+    "teachers": [
+      331,
+      332,
+      335,
+      336,
+      337,
+      349,
+      353,
+      357,
+      358,
+      463,
+      487,
+      491,
+      533,
+      562
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 894,
+  "fields": {
+    "name": "\u0411\u042d\u0423-17-01",
+    "department": 16,
+    "teachers": [
+      331,
+      353,
+      361,
+      382,
+      446,
+      478,
+      479,
+      562
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 895,
+  "fields": {
+    "name": "\u0411\u042d\u0423-17-06",
+    "department": 16,
+    "teachers": [
+      331,
+      335,
+      369,
+      403,
+      443,
+      478,
+      488,
+      562
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 896,
+  "fields": {
+    "name": "\u0411\u042d\u0423-17-\u041c\u0411\u043a",
+    "department": 16,
+    "teachers": [
+      331,
+      335
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 897,
+  "fields": {
+    "name": "\u0411\u042d\u0423-15-\u041f\u0411",
+    "department": 16,
+    "teachers": [
+      332,
+      334,
+      340,
+      344,
+      351,
+      375,
+      463,
+      477,
+      485,
+      486,
+      493,
+      561,
+      569
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 898,
+  "fields": {
+    "name": "\u0411-\u042d\u0423-15|16(1)",
+    "department": 16,
+    "teachers": [
+      332,
+      359
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 899,
+  "fields": {
+    "name": "\u0411-\u042d\u0423-15|(2)",
+    "department": 16,
+    "teachers": [
+      332
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 900,
+  "fields": {
+    "name": "\u0411-\u042d\u0423-14|15",
+    "department": 16,
+    "teachers": [
+      332,
+      336,
+      353,
+      357,
+      558
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 901,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u0411\u04232",
+    "department": 16,
+    "teachers": [
+      332,
+      338,
+      346,
+      358,
+      365,
+      389,
+      399,
+      406,
+      416,
+      419,
+      432,
+      478,
+      481,
+      484,
+      490,
+      536,
+      573
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 902,
+  "fields": {
+    "name": "\u0411\u0411\u0418-15-01",
+    "department": 16,
+    "teachers": [
+      334,
+      406,
+      419,
+      448,
+      477,
+      485,
+      550,
+      552
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 903,
+  "fields": {
+    "name": "\u0411\u041f\u041c\u041d-15-\u041c\u0421",
+    "department": 16,
+    "teachers": [
+      334,
+      408,
+      451,
+      491,
+      516,
+      533,
+      534,
+      541,
+      546,
+      551,
+      555,
+      561,
+      566,
+      568,
+      573,
+      575
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 904,
+  "fields": {
+    "name": "\u0411\u041c\u041d-15-\u0423\u04112",
+    "department": 16,
+    "teachers": [
+      334,
+      344,
+      486,
+      491,
+      516,
+      533,
+      534,
+      541,
+      555,
+      557,
+      566
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 905,
+  "fields": {
+    "name": "\u0411-\u0411\u0418|\u0411-\u041c\u041d-15",
+    "department": 16,
+    "teachers": [
+      334
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 906,
+  "fields": {
+    "name": "\u0411\u041f\u042d\u041c-14-\u0410\u04211",
+    "department": 16,
+    "teachers": [
+      334,
+      465,
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      485,
+      489,
+      490,
+      493,
+      533,
+      558
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 907,
+  "fields": {
+    "name": "\u0411\u041f\u042d\u041c-15-\u0410\u0421",
+    "department": 16,
+    "teachers": [
+      334,
+      363,
+      406,
+      445,
+      448,
+      464,
+      468,
+      469,
+      471,
+      472,
+      487,
+      491,
+      533,
+      558
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 908,
+  "fields": {
+    "name": "\u0411-\u042d\u041c|\u0411-\u0422\u0422-14|15",
+    "department": 16,
+    "teachers": [
+      334,
+      558
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 909,
+  "fields": {
+    "name": "\u0411\u041c\u041d-16-\u0423\u0411",
+    "department": 16,
+    "teachers": [
+      334,
+      382,
+      384,
+      407,
+      439,
+      445,
+      486,
+      490,
+      491,
+      520,
+      533,
+      536,
+      541,
+      546,
+      550,
+      556,
+      557,
+      558,
+      559,
+      565,
+      569,
+      575
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 910,
+  "fields": {
+    "name": "\u0411\u041c\u041d-16-\u0424\u041c",
+    "department": 16,
+    "teachers": [
+      334,
+      387,
+      388,
+      406,
+      438,
+      445,
+      478,
+      486,
+      490,
+      491,
+      520,
+      533,
+      535,
+      536,
+      541,
+      546,
+      550,
+      555,
+      557,
+      569,
+      575
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 911,
+  "fields": {
+    "name": "\u0411-\u042d\u0423(\u0424\u041a, \u042d\u0411)/\u0411\u041c\u041d-16",
+    "department": 16,
+    "teachers": [
+      334
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 912,
+  "fields": {
+    "name": "\u0411\u0413\u0423-15-01",
+    "department": 16,
+    "teachers": [
+      337,
+      445,
+      456,
+      458,
+      478,
+      487,
+      490,
+      493,
+      516,
+      533,
+      544,
+      549,
+      553,
+      557,
+      558,
+      565,
+      570,
+      571,
+      573,
+      577
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 913,
+  "fields": {
+    "name": "\u0411\u0411\u0418-16-01",
+    "department": 16,
+    "teachers": [
+      337,
+      346,
+      354,
+      373,
+      395,
+      403,
+      443,
+      477,
+      485,
+      558
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 914,
+  "fields": {
+    "name": "\u0411\u0413\u0423-17-01",
+    "department": 16,
+    "teachers": [
+      337,
+      391,
+      406,
+      419,
+      489,
+      490,
+      531
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 915,
+  "fields": {
+    "name": "\u0411\u0413\u0423-17-02",
+    "department": 16,
+    "teachers": [
+      337,
+      373,
+      384,
+      406,
+      419,
+      442,
+      489,
+      490,
+      531
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 916,
+  "fields": {
+    "name": "\u0411\u041c\u041d-17-\u0410\u0423",
+    "department": 16,
+    "teachers": [
+      337,
+      361,
+      375,
+      391,
+      438,
+      450,
+      476,
+      480,
+      531
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 917,
+  "fields": {
+    "name": "\u0411\u041c\u041d-17-\u0423\u0411",
+    "department": 16,
+    "teachers": [
+      337,
+      360,
+      366,
+      374,
+      384,
+      438,
+      450,
+      480,
+      491,
+      492,
+      531
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 918,
+  "fields": {
+    "name": "\u0411\u0423\u041f-17-01",
+    "department": 16,
+    "teachers": [
+      337,
+      361,
+      374,
+      395,
+      406,
+      421,
+      442,
+      479,
+      490,
+      491,
+      492,
+      531
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 919,
+  "fields": {
+    "name": "\u0411\u041f\u0421-15-01",
+    "department": 16,
+    "teachers": [
+      337,
+      444,
+      445,
+      446,
+      447,
+      448,
+      449,
+      450,
+      463,
+      491,
+      548
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 920,
+  "fields": {
+    "name": "\u0411\u041f\u0421-15-\u042e\u041f",
+    "department": 16,
+    "teachers": [
+      337,
+      444,
+      445,
+      446,
+      447,
+      448,
+      449,
+      450,
+      463,
+      491,
+      548
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 921,
+  "fields": {
+    "name": "\u0411-\u0413\u0423|\u0411-\u041c\u041d|-17",
+    "department": 16,
+    "teachers": [
+      337
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 922,
+  "fields": {
+    "name": "\u0411\u0414\u0417-15\u043a",
+    "department": 16,
+    "teachers": [
+      337,
+      371,
+      461,
+      476,
+      495,
+      511,
+      514,
+      527
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 923,
+  "fields": {
+    "name": "\u0411\u0414\u041a-15\u043a",
+    "department": 16,
+    "teachers": [
+      337,
+      371,
+      476,
+      505,
+      511
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 924,
+  "fields": {
+    "name": "\u0411\u041c\u041d-17-\u0423\u0431\u043a",
+    "department": 16,
+    "teachers": [
+      337
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 925,
+  "fields": {
+    "name": "\u0411\u0421\u0421-15-\u0421\u0410",
+    "department": 16,
+    "teachers": [
+      338,
+      360,
+      366,
+      411,
+      439,
+      448,
+      454,
+      476,
+      479,
+      485,
+      490,
+      499,
+      503,
+      508,
+      520,
+      521,
+      528,
+      539,
+      570
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 926,
+  "fields": {
+    "name": "\u0411\u0421\u0421-15-\u0416\u0425",
+    "department": 16,
+    "teachers": [
+      338,
+      360,
+      366,
+      411,
+      439,
+      448,
+      476,
+      479,
+      499,
+      503,
+      504,
+      505,
+      508,
+      519,
+      520,
+      521,
+      528,
+      539,
+      570
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 927,
+  "fields": {
+    "name": "\u0411\u0421\u0421-15-\u0418\u0423",
+    "department": 16,
+    "teachers": [
+      338,
+      366,
+      372,
+      411,
+      439,
+      446,
+      448,
+      454,
+      479,
+      489,
+      499,
+      503,
+      508,
+      510,
+      521,
+      524,
+      528,
+      539,
+      570
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 928,
+  "fields": {
+    "name": "\u0411-\u0421\u0421-15",
+    "department": 16,
+    "teachers": [
+      338,
+      499,
+      521,
+      528,
+      539
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 929,
+  "fields": {
+    "name": "\u0411\u0421\u0421-14-\u0416\u0425",
+    "department": 16,
+    "teachers": [
+      338,
+      422,
+      476,
+      490,
+      499,
+      503,
+      504,
+      505,
+      506,
+      516,
+      519,
+      520,
+      521,
+      528
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 930,
+  "fields": {
+    "name": "\u0411\u0411\u0418-17-01",
+    "department": 16,
+    "teachers": [
+      339,
+      395,
+      440,
+      461,
+      477,
+      482,
+      485,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 931,
+  "fields": {
+    "name": "\u0411\u042d\u0423-17-05",
+    "department": 16,
+    "teachers": [
+      339,
+      341,
+      362,
+      381,
+      443,
+      478,
+      479,
+      562
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 932,
+  "fields": {
+    "name": "\u0411\u042d\u0423-\u041c\u0411\u043a-14/15",
+    "department": 16,
+    "teachers": [
+      339
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 933,
+  "fields": {
+    "name": "\u0411\u042e\u041f-16-01",
+    "department": 16,
+    "teachers": [
+      341,
+      397,
+      407,
+      424,
+      426,
+      427,
+      430,
+      431,
+      434,
+      435,
+      437,
+      442,
+      454,
+      457,
+      459,
+      477,
+      480,
+      485
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 934,
+  "fields": {
+    "name": "\u0411\u042e\u041f-16-02",
+    "department": 16,
+    "teachers": [
+      341,
+      384,
+      407,
+      424,
+      426,
+      427,
+      430,
+      431,
+      434,
+      435,
+      437,
+      442,
+      454,
+      457,
+      458,
+      477,
+      485
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 935,
+  "fields": {
+    "name": "\u0411\u042d\u0423-17-02",
+    "department": 16,
+    "teachers": [
+      341,
+      361,
+      382,
+      446,
+      478,
+      479,
+      562
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 936,
+  "fields": {
+    "name": "\u0411\u042d\u0423-17-03",
+    "department": 16,
+    "teachers": [
+      341,
+      348,
+      361,
+      378,
+      446,
+      478,
+      479,
+      562
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 937,
+  "fields": {
+    "name": "\u0411\u042d\u0423-17-04",
+    "department": 16,
+    "teachers": [
+      341,
+      348,
+      362,
+      378,
+      443,
+      478,
+      479,
+      560
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 938,
+  "fields": {
+    "name": "\u0411-\u042d\u0423-16(1)",
+    "department": 16,
+    "teachers": [
+      343
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 939,
+  "fields": {
+    "name": "\u0411-\u042d\u0423-14|15(2)",
+    "department": 16,
+    "teachers": [
+      344
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 940,
+  "fields": {
+    "name": "\u0411-\u041c\u041d|\u0411-\u042d\u0423-15",
+    "department": 16,
+    "teachers": [
+      344
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 941,
+  "fields": {
+    "name": "\u0411-\u0411\u0418|\u0411-\u0413\u0423|\u0411-\u0423\u041f-16",
+    "department": 16,
+    "teachers": [
+      348
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 942,
+  "fields": {
+    "name": "\u0411\u0422\u0422/\u0411\u0414\u0417/\u0411\u0414\u041a-14/\u0411\u0417\u0420/\u0411\u0422\u0412/\u0411\u0422\u0414-16/",
+    "department": 16,
+    "teachers": [
+      348
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 943,
+  "fields": {
+    "name": "\u0411-\u042d\u0423-17",
+    "department": 16,
+    "teachers": [
+      348
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 944,
+  "fields": {
+    "name": "\u0411\u042d\u0423-\u0411\u0411\u0418-17",
+    "department": 16,
+    "teachers": [
+      348
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 945,
+  "fields": {
+    "name": "\u0411\u042d\u0423-14-\u041c\u0411/\u0411\u042d\u0423-15-\u041c\u0411\u043a",
+    "department": 16,
+    "teachers": [
+      353,
+      358
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 946,
+  "fields": {
+    "name": "\u0411-\u042d\u0423-|14",
+    "department": 16,
+    "teachers": [
+      353
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 947,
+  "fields": {
+    "name": "\u0411\u041c\u041e-16-01",
+    "department": 16,
+    "teachers": [
+      353,
+      384,
+      385,
+      387,
+      394,
+      406,
+      433,
+      440,
+      443,
+      478,
+      490,
+      491
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 948,
+  "fields": {
+    "name": "\u0411-\u042d\u0423 (\u041c\u0411,\u0411\u0423,\u041c\u0411\u043a,\u041c\u042d)/\u0411\u0411\u0418-16",
+    "department": 16,
+    "teachers": [
+      354
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 949,
+  "fields": {
+    "name": "\u0411-\u042d\u0423-15|16",
+    "department": 16,
+    "teachers": [
+      357
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 950,
+  "fields": {
+    "name": "\u0411\u042d\u0423-\u041c\u042d/\u041c\u0411\u043a-15",
+    "department": 16,
+    "teachers": [
+      357
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 951,
+  "fields": {
+    "name": "\u0411\u042d\u0423-15-\u041c\u0411\u041a/\u041c\u042d",
+    "department": 16,
+    "teachers": [
+      358
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 952,
+  "fields": {
+    "name": "\u0411\u042e\u041f-16/\u0411\u0421\u0421-16",
+    "department": 16,
+    "teachers": [
+      359
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 953,
+  "fields": {
+    "name": "\u0411\u0414\u0417-17-01",
+    "department": 17,
+    "teachers": [
+      360,
+      387,
+      461,
+      476,
+      506,
+      509,
+      511,
+      515,
+      529
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 954,
+  "fields": {
+    "name": "\u0411\u0414\u0417-17-02",
+    "department": 17,
+    "teachers": [
+      360,
+      400,
+      461,
+      476,
+      506,
+      509,
+      511,
+      513,
+      515
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 955,
+  "fields": {
+    "name": "\u0411\u0414\u041a-17-01",
+    "department": 17,
+    "teachers": [
+      360,
+      387,
+      476,
+      479,
+      496,
+      497,
+      500,
+      506,
+      509,
+      511
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 956,
+  "fields": {
+    "name": "\u0411\u0421\u0421 (\u0416\u0425,\u0421\u0410)-15",
+    "department": 17,
+    "teachers": [
+      360
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 957,
+  "fields": {
+    "name": "\u0411\u0421\u0421-17-\u0421\u0410",
+    "department": 17,
+    "teachers": [
+      361,
+      381,
+      438,
+      506,
+      519
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 958,
+  "fields": {
+    "name": "\u0411\u0414\u0417-17-01|02",
+    "department": 17,
+    "teachers": [
+      361,
+      476,
+      479,
+      492,
+      506
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 959,
+  "fields": {
+    "name": "\u0411\u0414\u0417/\u0411\u0414\u041a-17",
+    "department": 17,
+    "teachers": [
+      361
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 960,
+  "fields": {
+    "name": "\u0411\u042e\u041f-17-05",
+    "department": 17,
+    "teachers": [
+      361,
+      391,
+      430,
+      435,
+      437,
+      440,
+      442,
+      445,
+      477,
+      480,
+      485,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 961,
+  "fields": {
+    "name": "\u0411-\u0421\u0421/\u0411-\u042d\u0423-15",
+    "department": 17,
+    "teachers": [
+      362
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 962,
+  "fields": {
+    "name": "\u0411\u041c\u041d-17-\u0423\u0411\u043a",
+    "department": 17,
+    "teachers": [
+      362,
+      369,
+      375,
+      432,
+      479,
+      489,
+      560,
+      562
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 963,
+  "fields": {
+    "name": "\u0411\u041b\u0413-15\u043a-01",
+    "department": 17,
+    "teachers": [
+      362,
+      364,
+      369,
+      374,
+      386,
+      419,
+      476
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 964,
+  "fields": {
+    "name": "\u0411\u0423\u041fI\u0411-\u0413\u0423|\u0411\u041f-\u042e\u041f|\u0411-\u042e\u041f-",
+    "department": 17,
+    "teachers": [
+      363
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 965,
+  "fields": {
+    "name": "\u0411\u041f\u042d\u041cI\u0411-\u041c\u041d|\u0411-\u042d\u041c|\u0411-\u0420\u041a|\u0411-\u0422\u0412|\u0411-\u0422\u0414|",
+    "department": 17,
+    "teachers": [
+      363
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 966,
+  "fields": {
+    "name": "\u0411\u0422\u0423-16-02",
+    "department": 17,
+    "teachers": [
+      364,
+      400,
+      404,
+      406,
+      411,
+      412,
+      415,
+      438,
+      478,
+      481,
+      489,
+      506,
+      522,
+      541
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 967,
+  "fields": {
+    "name": "\u0411\u042e\u041f-17-02",
+    "department": 17,
+    "teachers": [
+      364,
+      384,
+      430,
+      435,
+      437,
+      440,
+      442,
+      445,
+      477,
+      483,
+      485,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 968,
+  "fields": {
+    "name": "\u0411\u0421\u0421-17-\u0418\u0423",
+    "department": 17,
+    "teachers": [
+      364,
+      386,
+      438,
+      490,
+      499,
+      506
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 969,
+  "fields": {
+    "name": "\u0411\u041c\u041e-15-\u041a\u0418",
+    "department": 17,
+    "teachers": [
+      365,
+      375,
+      378,
+      384,
+      385,
+      387,
+      390,
+      394,
+      426,
+      433,
+      441,
+      491
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 970,
+  "fields": {
+    "name": "\u0411\u041c\u041e-15-\u041a\u041e",
+    "department": 17,
+    "teachers": [
+      365,
+      375,
+      383,
+      384,
+      385,
+      387,
+      388,
+      399,
+      426,
+      433,
+      441,
+      491
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 971,
+  "fields": {
+    "name": "\u0411\u041c\u041e-15",
+    "department": 17,
+    "teachers": [
+      365
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 972,
+  "fields": {
+    "name": "\u0411\u0410\u041f\u0421-16-01",
+    "department": 17,
+    "teachers": [
+      366,
+      389,
+      391,
+      402,
+      443,
+      444,
+      447,
+      448,
+      449,
+      462,
+      489,
+      490,
+      522
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 973,
+  "fields": {
+    "name": "\u041c\u041c\u041d-16-\u041c\u041c\u043a",
+    "department": 17,
+    "teachers": [
+      366,
+      375
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 974,
+  "fields": {
+    "name": "\u0411\u0410\u041f\u0421-16-01/2",
+    "department": 17,
+    "teachers": [
+      366,
+      389,
+      402,
+      484
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 975,
+  "fields": {
+    "name": "\u0411\u0410\u041f\u0421-16-01/1",
+    "department": 17,
+    "teachers": [
+      366,
+      391,
+      484
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 976,
+  "fields": {
+    "name": "\u041c-\u041c\u041d|\u041c-\u042d\u0423-16",
+    "department": 17,
+    "teachers": [
+      366
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 977,
+  "fields": {
+    "name": "\u0411\u0423\u041f-15-01",
+    "department": 17,
+    "teachers": [
+      366,
+      374,
+      426,
+      447,
+      458,
+      477,
+      478,
+      479,
+      531,
+      533,
+      546,
+      552,
+      553,
+      557,
+      561,
+      569,
+      574
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 978,
+  "fields": {
+    "name": "\u0411\u041b\u0413-17-01",
+    "department": 17,
+    "teachers": [
+      366,
+      370,
+      371,
+      372,
+      406,
+      416,
+      446,
+      476
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 979,
+  "fields": {
+    "name": "\u0411\u042d\u0423-17\u041c\u0411\u043a",
+    "department": 17,
+    "teachers": [
+      366,
+      371,
+      443,
+      478,
+      479,
+      562
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 980,
+  "fields": {
+    "name": "\u0411\u0422\u0422I\u0411\u0410\u041f\u0421I\u0411-\u0413\u0414|\u0411-\u0421\u0421|\u0411-\u0422\u0423|-",
+    "department": 17,
+    "teachers": [
+      368
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 981,
+  "fields": {
+    "name": "\u0411-\u041c\u041d|\u0411-\u0423\u041f/\u0411\u041c\u041e-15|17",
+    "department": 17,
+    "teachers": [
+      368
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 982,
+  "fields": {
+    "name": "\u0411-\u0422\u0412|\u0411-\u0422\u0414/\u0411\u042d\u041a/\u0411\u0414\u0417-14/15|16",
+    "department": 17,
+    "teachers": [
+      368
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 983,
+  "fields": {
+    "name": "\u0411\u0413\u0414-15-01",
+    "department": 17,
+    "teachers": [
+      369,
+      389,
+      409,
+      411,
+      414,
+      415,
+      417,
+      418,
+      439,
+      448,
+      476,
+      478,
+      508,
+      510
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 984,
+  "fields": {
+    "name": "\u0411\u0410\u041f\u0421-17-01",
+    "department": 17,
+    "teachers": [
+      370,
+      397,
+      406,
+      419,
+      438,
+      450,
+      461,
+      463,
+      489
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 985,
+  "fields": {
+    "name": "\u0411\u042e\u041f-17-01",
+    "department": 17,
+    "teachers": [
+      370,
+      391,
+      430,
+      435,
+      437,
+      440,
+      442,
+      445,
+      477,
+      482,
+      485,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 986,
+  "fields": {
+    "name": "\u0411\u0422\u0423-15-01",
+    "department": 17,
+    "teachers": [
+      372,
+      390,
+      393,
+      408,
+      409,
+      411,
+      415,
+      439,
+      448,
+      478,
+      479,
+      487,
+      491,
+      503,
+      508
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 987,
+  "fields": {
+    "name": "\u0411\u0413\u0414-15-02",
+    "department": 17,
+    "teachers": [
+      373,
+      383,
+      393,
+      409,
+      411,
+      414,
+      415,
+      417,
+      418,
+      439,
+      448,
+      476,
+      478,
+      508,
+      510
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 988,
+  "fields": {
+    "name": "\u0411-\u041b\u0413-15",
+    "department": 17,
+    "teachers": [
+      374,
+      487,
+      492
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 989,
+  "fields": {
+    "name": "\u041c\u042d\u0423-15-\u041c\u042d\u043a",
+    "department": 17,
+    "teachers": [
+      375
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 990,
+  "fields": {
+    "name": "\u0411-\u041c\u041d-17|15",
+    "department": 17,
+    "teachers": [
+      375
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 991,
+  "fields": {
+    "name": "\u0411-\u041c\u041e-15",
+    "department": 17,
+    "teachers": [
+      375,
+      478,
+      491
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 992,
+  "fields": {
+    "name": "\u0411\u042d\u041a/\u0411\u042d\u0423-\u041f\u0411-15/16",
+    "department": 17,
+    "teachers": [
+      375
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 993,
+  "fields": {
+    "name": "\u041c\u041c\u041d-17-\u041c\u041c\u043a",
+    "department": 17,
+    "teachers": [
+      375
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 994,
+  "fields": {
+    "name": "\u041c-\u041c\u041d-17-\u041c\u041c\u043a",
+    "department": 17,
+    "teachers": [
+      375
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 995,
+  "fields": {
+    "name": "\u041c\u041f\u0418-16",
+    "department": 18,
+    "teachers": [
+      376
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 996,
+  "fields": {
+    "name": "\u0411\u0422\u0423-17\u0443",
+    "department": 18,
+    "teachers": [
+      377,
+      394,
+      406,
+      409,
+      411,
+      412,
+      415,
+      416,
+      422,
+      479,
+      506
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 997,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u041c\u042d1/1",
+    "department": 18,
+    "teachers": [
+      378
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 998,
+  "fields": {
+    "name": "\u0411\u0418\u041a-17-01",
+    "department": 18,
+    "teachers": [
+      379,
+      440,
+      482,
+      485,
+      490,
+      491
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 999,
+  "fields": {
+    "name": "\u0411\u0418\u041a-16-01",
+    "department": 18,
+    "teachers": [
+      379,
+      391,
+      407,
+      485,
+      491
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1000,
+  "fields": {
+    "name": "\u0411\u0422\u0423-16-\u0413\u041a",
+    "department": 18,
+    "teachers": [
+      379,
+      390,
+      416,
+      422,
+      454,
+      461,
+      478,
+      489
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1001,
+  "fields": {
+    "name": "\u041c\u0411\u0418-17",
+    "department": 18,
+    "teachers": [
+      379
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1002,
+  "fields": {
+    "name": "\u041c\u0411\u0418/\u041c\u0422\u0414/\u041c\u0424\u041a-17",
+    "department": 18,
+    "teachers": [
+      379
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1003,
+  "fields": {
+    "name": "\u0411\u0418\u041a-15-01",
+    "department": 18,
+    "teachers": [
+      379,
+      389,
+      445,
+      479,
+      484,
+      485,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1004,
+  "fields": {
+    "name": "\u0411\u041f\u0418-15-01",
+    "department": 18,
+    "teachers": [
+      379,
+      397,
+      445,
+      485,
+      491
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1005,
+  "fields": {
+    "name": "\u0411\u0414\u0417-16-01",
+    "department": 18,
+    "teachers": [
+      380,
+      446,
+      476,
+      490,
+      494,
+      497,
+      498,
+      502,
+      506,
+      509,
+      511,
+      512,
+      514,
+      527
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1006,
+  "fields": {
+    "name": "\u0411\u0418\u0421-17-02",
+    "department": 18,
+    "teachers": [
+      380,
+      432,
+      476,
+      486,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1007,
+  "fields": {
+    "name": "\u0411\u0414\u0417-16-02",
+    "department": 18,
+    "teachers": [
+      381,
+      391,
+      446,
+      476,
+      484,
+      489,
+      490,
+      494,
+      497,
+      498,
+      502,
+      506,
+      509,
+      511,
+      514,
+      515,
+      527,
+      529
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1008,
+  "fields": {
+    "name": "\u0411\u0421\u0421-16-\u0418\u0423/2",
+    "department": 18,
+    "teachers": [
+      381
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1009,
+  "fields": {
+    "name": "\u0411\u041c\u041d-16-\u0423\u0411/2",
+    "department": 18,
+    "teachers": [
+      382,
+      486,
+      491,
+      520,
+      541,
+      550,
+      557
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1010,
+  "fields": {
+    "name": "\u0411\u0414\u041a-16-01",
+    "department": 18,
+    "teachers": [
+      382,
+      396,
+      446,
+      476,
+      486,
+      489,
+      490,
+      496,
+      497,
+      500,
+      505,
+      506,
+      514,
+      519,
+      528
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1011,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u042d\u04112/2",
+    "department": 18,
+    "teachers": [
+      382
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1012,
+  "fields": {
+    "name": "\u0411\u0422\u0423-16-\u0413\u041a/2",
+    "department": 18,
+    "teachers": [
+      383
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1013,
+  "fields": {
+    "name": "\u0411\u041c\u041e-16-\u041a\u041e",
+    "department": 18,
+    "teachers": [
+      383,
+      387,
+      394,
+      426,
+      433,
+      434,
+      439,
+      478,
+      516
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1014,
+  "fields": {
+    "name": "\u0411\u041c\u041d-16-\u0423\u0411/1",
+    "department": 18,
+    "teachers": [
+      384,
+      486,
+      491,
+      520,
+      541,
+      550,
+      557
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1015,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u041c\u04111/1",
+    "department": 18,
+    "teachers": [
+      384
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1016,
+  "fields": {
+    "name": "\u0411\u0417\u0420-17-01",
+    "department": 18,
+    "teachers": [
+      385,
+      387,
+      388,
+      390,
+      438,
+      439,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1017,
+  "fields": {
+    "name": "\u0411\u041c\u041e-17-01",
+    "department": 18,
+    "teachers": [
+      385,
+      387,
+      394,
+      438,
+      439,
+      441,
+      480,
+      491,
+      492
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1018,
+  "fields": {
+    "name": "\u0411\u041c\u041e-17-01/2",
+    "department": 18,
+    "teachers": [
+      385,
+      387
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1019,
+  "fields": {
+    "name": "\u0411\u041c\u041e-17-01/1",
+    "department": 18,
+    "teachers": [
+      385,
+      387,
+      394
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1020,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u042d\u04111/1",
+    "department": 18,
+    "teachers": [
+      385
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1021,
+  "fields": {
+    "name": "\u0411\u041c\u041e-16-\u042f\u041f",
+    "department": 18,
+    "teachers": [
+      385,
+      396,
+      426,
+      433,
+      434,
+      439,
+      478,
+      516
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1022,
+  "fields": {
+    "name": "\u0411-\u041c\u041e/\u0411\u0417\u0420-16",
+    "department": 18,
+    "teachers": [
+      385,
+      387,
+      394
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1023,
+  "fields": {
+    "name": "\u0411\u0421\u0421-16-\u0418\u0423/1",
+    "department": 18,
+    "teachers": [
+      386
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1024,
+  "fields": {
+    "name": "\u041c\u041c\u041d-16-\u0421\u041c",
+    "department": 18,
+    "teachers": [
+      387
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1025,
+  "fields": {
+    "name": "\u041c\u041c\u041d-16-\u0424\u041c",
+    "department": 18,
+    "teachers": [
+      387
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1026,
+  "fields": {
+    "name": "\u041c\u0423\u041f-16",
+    "department": 18,
+    "teachers": [
+      387
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1027,
+  "fields": {
+    "name": "\u041c-\u041c\u041d-16",
+    "department": 18,
+    "teachers": [
+      387
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1028,
+  "fields": {
+    "name": "\u0411\u041b\u0413-13-01",
+    "department": 18,
+    "teachers": [
+      387
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1029,
+  "fields": {
+    "name": "\u0411\u0418\u0421-15-01",
+    "department": 18,
+    "teachers": [
+      388,
+      398,
+      445,
+      479,
+      486,
+      491
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1030,
+  "fields": {
+    "name": "\u0411\u0418\u0421-15-01/2",
+    "department": 18,
+    "teachers": [
+      388
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1031,
+  "fields": {
+    "name": "\u0411\u042d\u041a-17-01",
+    "department": 18,
+    "teachers": [
+      388,
+      407,
+      410,
+      416,
+      478,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1032,
+  "fields": {
+    "name": "\u0411\u042e\u041f-17-03",
+    "department": 18,
+    "teachers": [
+      388,
+      430,
+      435,
+      437,
+      440,
+      442,
+      445,
+      477,
+      483,
+      485,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1033,
+  "fields": {
+    "name": "\u0411\u041c\u041d-16-\u0424\u041c/2",
+    "department": 18,
+    "teachers": [
+      388
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1034,
+  "fields": {
+    "name": "\u0411\u0422\u0423-15-01/1",
+    "department": 18,
+    "teachers": [
+      389
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1035,
+  "fields": {
+    "name": "\u0411\u0413\u0414-14-01",
+    "department": 18,
+    "teachers": [
+      389,
+      404,
+      405,
+      409,
+      411,
+      414,
+      415,
+      417,
+      418,
+      419,
+      420,
+      422,
+      439,
+      442,
+      476,
+      478,
+      490,
+      551,
+      570
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1036,
+  "fields": {
+    "name": "\u0411\u0413\u0414-14-01/2",
+    "department": 18,
+    "teachers": [
+      389
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1037,
+  "fields": {
+    "name": "\u0411\u0422\u0423-16-01/1",
+    "department": 18,
+    "teachers": [
+      390
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1038,
+  "fields": {
+    "name": "\u0411\u0422\u0423-16-\u0413\u041a/1",
+    "department": 18,
+    "teachers": [
+      390
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1039,
+  "fields": {
+    "name": "\u0411\u0422\u0423-15-01/2",
+    "department": 18,
+    "teachers": [
+      390,
+      393
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1040,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u041c\u042d1/2",
+    "department": 18,
+    "teachers": [
+      391
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1041,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u042d\u04111/2",
+    "department": 18,
+    "teachers": [
+      391
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1042,
+  "fields": {
+    "name": "\u0411\u041f\u0418-16-01",
+    "department": 18,
+    "teachers": [
+      395,
+      406,
+      485
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1043,
+  "fields": {
+    "name": "\u0411\u0411\u0418-16-01/2",
+    "department": 18,
+    "teachers": [
+      395
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1044,
+  "fields": {
+    "name": "\u0411\u042e\u041f-17-04",
+    "department": 18,
+    "teachers": [
+      395,
+      430,
+      434,
+      436,
+      437,
+      442,
+      445,
+      477,
+      482,
+      485,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1045,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u042d\u04112/1",
+    "department": 18,
+    "teachers": [
+      395
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1046,
+  "fields": {
+    "name": "\u0411\u0418\u0421-16-01",
+    "department": 18,
+    "teachers": [
+      397,
+      398,
+      419,
+      486,
+      489
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1047,
+  "fields": {
+    "name": "\u0411\u0418\u0421-16-01/2",
+    "department": 18,
+    "teachers": [
+      397
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1048,
+  "fields": {
+    "name": "\u0411\u042d\u041c-17-01",
+    "department": 18,
+    "teachers": [
+      397,
+      407,
+      467,
+      469,
+      478,
+      479
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1049,
+  "fields": {
+    "name": "\u0411\u041f\u0418-17-01",
+    "department": 18,
+    "teachers": [
+      397,
+      440,
+      480,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1050,
+  "fields": {
+    "name": "\u0411\u0418\u0421-16-01/1",
+    "department": 18,
+    "teachers": [
+      398
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1051,
+  "fields": {
+    "name": "\u0411\u0418\u0421-17-01",
+    "department": 18,
+    "teachers": [
+      398,
+      440,
+      476,
+      486,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1052,
+  "fields": {
+    "name": "\u0411\u0418\u0421-17-01/2",
+    "department": 18,
+    "teachers": [
+      398
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1053,
+  "fields": {
+    "name": "\u0411\u0418\u0421-17-01/1",
+    "department": 18,
+    "teachers": [
+      398
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1054,
+  "fields": {
+    "name": "\u0410\u042e\u0420\u041f-17-\u0422\u0418\u0420\u0417\u041f",
+    "department": 18,
+    "teachers": [
+      398
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1055,
+  "fields": {
+    "name": "\u0410\u041f\u041d\u0420-\u0410\u042d\u0418\u0423-\u0410\u042e\u0420\u041f-17",
+    "department": 18,
+    "teachers": [
+      398
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1056,
+  "fields": {
+    "name": "\u0411\u0422\u0423-17-01",
+    "department": 18,
+    "teachers": [
+      400,
+      403,
+      411,
+      416,
+      439,
+      445,
+      490,
+      506
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1057,
+  "fields": {
+    "name": "\u0411\u0422\u0423-17-01/1",
+    "department": 18,
+    "teachers": [
+      400
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1058,
+  "fields": {
+    "name": "\u0411\u0418\u0421-15-01/1",
+    "department": 18,
+    "teachers": [
+      401
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1059,
+  "fields": {
+    "name": "\u0411\u0422\u0422-17-01",
+    "department": 18,
+    "teachers": [
+      402,
+      407,
+      440,
+      467,
+      469,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1060,
+  "fields": {
+    "name": "\u0411\u0411\u0418-16-01/1",
+    "department": 18,
+    "teachers": [
+      403
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1061,
+  "fields": {
+    "name": "\u0411\u042d\u0423-16-\u041c\u04111/2",
+    "department": 18,
+    "teachers": [
+      403
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1062,
+  "fields": {
+    "name": "\u0411\u0422\u0423-17-01/2",
+    "department": 18,
+    "teachers": [
+      403
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1063,
+  "fields": {
+    "name": "\u0411\u0422\u0423-14-01",
+    "department": 19,
+    "teachers": [
+      404,
+      405,
+      409,
+      411,
+      412,
+      415,
+      417,
+      418,
+      422,
+      423,
+      439,
+      442,
+      478,
+      490,
+      491,
+      532,
+      551
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1064,
+  "fields": {
+    "name": "\u0411\u041f\u0422\u0423-14-01",
+    "department": 19,
+    "teachers": [
+      404,
+      405,
+      409,
+      411,
+      412,
+      415,
+      417,
+      418,
+      422,
+      439,
+      442,
+      484,
+      487,
+      490,
+      532,
+      551
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1065,
+  "fields": {
+    "name": "\u0411\u0418\u041a-14-01",
+    "department": 19,
+    "teachers": [
+      406,
+      486,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1066,
+  "fields": {
+    "name": "\u0411\u042d\u041a-14-01",
+    "department": 19,
+    "teachers": [
+      406,
+      407,
+      410,
+      413,
+      416,
+      419,
+      478,
+      490,
+      573
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1067,
+  "fields": {
+    "name": "\u0411\u042d\u041a-15-01",
+    "department": 19,
+    "teachers": [
+      406,
+      407,
+      413,
+      416,
+      419,
+      420,
+      422,
+      445,
+      448,
+      478
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1068,
+  "fields": {
+    "name": "\u0411\u041a\u041b-14-01",
+    "department": 19,
+    "teachers": [
+      407,
+      419,
+      476,
+      490,
+      506,
+      510,
+      512,
+      516,
+      517,
+      522
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1069,
+  "fields": {
+    "name": "\u0411\u041f\u041c\u041d-14-\u041c\u04211",
+    "department": 19,
+    "teachers": [
+      408,
+      484,
+      490,
+      534,
+      535,
+      542,
+      549,
+      557,
+      563
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1070,
+  "fields": {
+    "name": "\u0411\u0418\u0421-14-01",
+    "department": 19,
+    "teachers": [
+      419,
+      461,
+      486,
+      487,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1071,
+  "fields": {
+    "name": "\u0411\u0421\u0421-14-\u0421\u0410",
+    "department": 19,
+    "teachers": [
+      422,
+      476,
+      490,
+      499,
+      503,
+      505,
+      508,
+      518,
+      519,
+      520,
+      524,
+      528
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1072,
+  "fields": {
+    "name": "\u0411\u0421\u0421-14-\u0421\u0421",
+    "department": 19,
+    "teachers": [
+      422,
+      476,
+      490,
+      499,
+      503,
+      505,
+      506,
+      508,
+      510,
+      518,
+      520,
+      521,
+      523,
+      524
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1073,
+  "fields": {
+    "name": "\u0411\u042e\u041f-14-01",
+    "department": 20,
+    "teachers": [
+      424,
+      428,
+      429,
+      440,
+      451,
+      455,
+      456,
+      460,
+      477,
+      479,
+      482,
+      483,
+      484,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1074,
+  "fields": {
+    "name": "\u0411\u042e\u041f-14-02",
+    "department": 20,
+    "teachers": [
+      424,
+      428,
+      429,
+      430,
+      431,
+      440,
+      451,
+      452,
+      453,
+      454,
+      455,
+      458,
+      460,
+      477,
+      484,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1075,
+  "fields": {
+    "name": "\u0411\u042e\u041f-14-03",
+    "department": 20,
+    "teachers": [
+      424,
+      428,
+      429,
+      440,
+      451,
+      477,
+      484
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1076,
+  "fields": {
+    "name": "\u0411\u042e\u041f-14-03\u043c",
+    "department": 20,
+    "teachers": [
+      424,
+      429,
+      431,
+      451,
+      452,
+      453,
+      455,
+      458,
+      460,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1077,
+  "fields": {
+    "name": "\u0411\u042e\u041f-15-04\u043c",
+    "department": 20,
+    "teachers": [
+      424,
+      428,
+      429,
+      453,
+      455,
+      477,
+      487
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1078,
+  "fields": {
+    "name": "\u0411\u041f\u042e\u041f-14-01",
+    "department": 20,
+    "teachers": [
+      424,
+      428,
+      429,
+      451,
+      452,
+      455,
+      456,
+      460,
+      477,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1079,
+  "fields": {
+    "name": "\u0411\u042e\u041f-15-01",
+    "department": 20,
+    "teachers": [
+      425,
+      427,
+      428,
+      429,
+      431,
+      437,
+      452,
+      455,
+      477,
+      487,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1080,
+  "fields": {
+    "name": "\u0411\u042e\u041f-15-02",
+    "department": 20,
+    "teachers": [
+      425,
+      427,
+      428,
+      429,
+      431,
+      437,
+      448,
+      453,
+      455,
+      477,
+      487,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1081,
+  "fields": {
+    "name": "\u0411\u042e\u041f-15-03",
+    "department": 20,
+    "teachers": [
+      425,
+      426,
+      427,
+      428,
+      429,
+      431,
+      437,
+      448,
+      453,
+      455,
+      477,
+      487,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1082,
+  "fields": {
+    "name": "\u0411\u042e\u041f-15-04",
+    "department": 20,
+    "teachers": [
+      425,
+      427,
+      431,
+      437,
+      448,
+      477,
+      487,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1083,
+  "fields": {
+    "name": "\u0411\u041f\u042e\u041f-15-01",
+    "department": 20,
+    "teachers": [
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431,
+      437,
+      448,
+      453,
+      455,
+      477,
+      478,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1084,
+  "fields": {
+    "name": "\u0411\u041c\u041e-14-\u041a\u0418",
+    "department": 20,
+    "teachers": [
+      426,
+      433,
+      440,
+      441,
+      490,
+      491
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1085,
+  "fields": {
+    "name": "\u0411\u041c\u041e-14-\u042f\u041f",
+    "department": 20,
+    "teachers": [
+      426,
+      433,
+      440,
+      441,
+      490,
+      491
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1086,
+  "fields": {
+    "name": "\u0411\u0423\u041f-14-01",
+    "department": 20,
+    "teachers": [
+      426,
+      431,
+      444,
+      484,
+      488,
+      489,
+      490,
+      531,
+      534,
+      540,
+      542,
+      551,
+      552,
+      557,
+      559,
+      561,
+      569,
+      574,
+      575,
+      578
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1087,
+  "fields": {
+    "name": "\u0411\u0423\u041f-15-02",
+    "department": 20,
+    "teachers": [
+      426,
+      447,
+      491,
+      493,
+      531,
+      552,
+      574
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1088,
+  "fields": {
+    "name": "\u0411\u0414\u0417-15-01",
+    "department": 20,
+    "teachers": [
+      438,
+      445,
+      446,
+      476,
+      494,
+      495,
+      498,
+      501,
+      513,
+      514,
+      515,
+      527,
+      530,
+      548
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1089,
+  "fields": {
+    "name": "\u0411\u0414\u0417-15-02",
+    "department": 20,
+    "teachers": [
+      438,
+      446,
+      476,
+      494,
+      498,
+      501,
+      509,
+      513,
+      514,
+      525,
+      526,
+      527,
+      548
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1090,
+  "fields": {
+    "name": "\u0411\u041f\u0421-14-01",
+    "department": 20,
+    "teachers": [
+      443,
+      444,
+      445,
+      447,
+      448,
+      450,
+      463,
+      476,
+      478,
+      490,
+      491,
+      522
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1091,
+  "fields": {
+    "name": "\u0411\u0414\u0417-16\u0443",
+    "department": 20,
+    "teachers": [
+      443,
+      446,
+      494,
+      495,
+      496,
+      497,
+      498,
+      501,
+      513,
+      514,
+      527,
+      529,
+      548
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1092,
+  "fields": {
+    "name": "\u0411\u0420\u041a-14-01",
+    "department": 20,
+    "teachers": [
+      445,
+      484,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1093,
+  "fields": {
+    "name": "\u0411\u041f\u0414\u041a-15-01",
+    "department": 20,
+    "teachers": [
+      445,
+      446,
+      476,
+      479,
+      494,
+      496,
+      497,
+      499,
+      501,
+      505,
+      518,
+      519,
+      528,
+      548
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1094,
+  "fields": {
+    "name": "\u0411\u041b\u0413-14-01\u043a",
+    "department": 20,
+    "teachers": [
+      446,
+      487
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1095,
+  "fields": {
+    "name": "\u0411\u041b\u0413-14-01",
+    "department": 20,
+    "teachers": [
+      446,
+      487,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1096,
+  "fields": {
+    "name": "\u0411\u041b\u0413-14-02\u043a",
+    "department": 20,
+    "teachers": [
+      446,
+      487
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1097,
+  "fields": {
+    "name": "\u0411\u041b\u0413-14\u043a",
+    "department": 20,
+    "teachers": [
+      446
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1098,
+  "fields": {
+    "name": "\u0411\u0422\u0414-14-\u041b\u041e1",
+    "department": 20,
+    "teachers": [
+      447,
+      487,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1099,
+  "fields": {
+    "name": "\u0411\u041f\u0418-14-01",
+    "department": 20,
+    "teachers": [
+      461,
+      485,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1100,
+  "fields": {
+    "name": "\u0411\u0422\u0422-14-01",
+    "department": 21,
+    "teachers": [
+      464,
+      466,
+      468,
+      469,
+      471,
+      474,
+      490,
+      533,
+      558
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1101,
+  "fields": {
+    "name": "\u0411-\u0414\u0417-16",
+    "department": 22,
+    "teachers": [
+      476
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1102,
+  "fields": {
+    "name": "\u0411-\u0414\u0417|\u0411-\u0414\u041a-16",
+    "department": 22,
+    "teachers": [
+      476,
+      484,
+      509
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1103,
+  "fields": {
+    "name": "\u0411\u0414\u0417-14\u043a",
+    "department": 22,
+    "teachers": [
+      476,
+      490,
+      494,
+      495,
+      501,
+      512,
+      513,
+      514,
+      527,
+      529
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1104,
+  "fields": {
+    "name": "\u0411-\u041c\u041e-14",
+    "department": 22,
+    "teachers": [
+      476,
+      491
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1105,
+  "fields": {
+    "name": "\u0411-\u0421\u0421-14",
+    "department": 22,
+    "teachers": [
+      476,
+      520
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1106,
+  "fields": {
+    "name": "\u0411\u0414\u041aI\u0411\u041a\u041b-14",
+    "department": 22,
+    "teachers": [
+      476
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1107,
+  "fields": {
+    "name": "\u0411\u0414\u0417\u043aI\u0411\u042d\u0423-\u041c\u0411\u043a-14",
+    "department": 22,
+    "teachers": [
+      476,
+      484,
+      487
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1108,
+  "fields": {
+    "name": "\u0411\u0420\u041aI\u0411\u0422\u041b-15",
+    "department": 22,
+    "teachers": [
+      477,
+      489,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1109,
+  "fields": {
+    "name": "\u0411\u041f\u042e\u041fI\u0411\u0417\u0420-14",
+    "department": 22,
+    "teachers": [
+      477,
+      483
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1110,
+  "fields": {
+    "name": "\u0411-\u041c\u041e-16",
+    "department": 22,
+    "teachers": [
+      478,
+      491,
+      492,
+      514
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1111,
+  "fields": {
+    "name": "\u0411-\u041c\u041d-14(2)",
+    "department": 22,
+    "teachers": [
+      478,
+      491,
+      533,
+      535,
+      546
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1112,
+  "fields": {
+    "name": "\u0411-\u0422\u0412-14",
+    "department": 22,
+    "teachers": [
+      478,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1113,
+  "fields": {
+    "name": "\u0411-\u041c\u041d-14(1)",
+    "department": 22,
+    "teachers": [
+      483,
+      486,
+      491,
+      533,
+      535,
+      563
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1114,
+  "fields": {
+    "name": "\u0411\u0413\u0423I\u0411\u041b\u0413I\u0411\u042d\u0423-\u041c\u0411\u043a-15",
+    "department": 22,
+    "teachers": [
+      484,
+      489,
+      490,
+      493
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1115,
+  "fields": {
+    "name": "\u0411-\u041b\u0413-14",
+    "department": 22,
+    "teachers": [
+      484,
+      487,
+      491
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1116,
+  "fields": {
+    "name": "\u0411\u0422\u041bI\u0411\u0420\u041a-14",
+    "department": 22,
+    "teachers": [
+      484,
+      489
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1117,
+  "fields": {
+    "name": "\u0411\u0422\u0414-14-\u041c\u04101",
+    "department": 22,
+    "teachers": [
+      486,
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1118,
+  "fields": {
+    "name": "\u0411\u041c\u041d-14-\u041c\u04221",
+    "department": 22,
+    "teachers": [
+      487,
+      490,
+      532,
+      534,
+      535,
+      537,
+      541,
+      542,
+      554,
+      555,
+      557,
+      559,
+      563,
+      568,
+      573
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1119,
+  "fields": {
+    "name": "\u0411-\u0414\u0417-15",
+    "department": 22,
+    "teachers": [
+      489,
+      492,
+      513
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1120,
+  "fields": {
+    "name": "\u0411\u041b\u0413-14-\u041a\u041e",
+    "department": 22,
+    "teachers": [
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1121,
+  "fields": {
+    "name": "\u0411\u041b\u0413-14-\u042f\u041f",
+    "department": 22,
+    "teachers": [
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1122,
+  "fields": {
+    "name": "\u0411\u0422\u0412-14-\u0422\u04221",
+    "department": 22,
+    "teachers": [
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1123,
+  "fields": {
+    "name": "\u0411\u0422\u0412-14-\u0422\u04121",
+    "department": 22,
+    "teachers": [
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1124,
+  "fields": {
+    "name": "\u0411-\u0411\u0418|\u0411-\u0413\u0414|\u0411-\u0414\u0417|\u0411-\u0414\u041a|\u0411-\u0417\u0420|\u0411-\u0418\u041a|",
+    "department": 22,
+    "teachers": [
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1125,
+  "fields": {
+    "name": "\u0411-\u041f\u0421|\u0411-\u0413\u0423|\u0411-\u0414\u0417|\u0411-\u0414\u041a|\u0411-\u0417\u0420|\u0411-\u041b\u0413|",
+    "department": 22,
+    "teachers": [
+      490
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1126,
+  "fields": {
+    "name": "\u0411\u0414\u0417-15",
+    "department": 23,
+    "teachers": [
+      494
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1127,
+  "fields": {
+    "name": "\u0411-\u0414\u0417|\u0411-\u0414\u041a-15",
+    "department": 23,
+    "teachers": [
+      494,
+      501
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1128,
+  "fields": {
+    "name": "\u0411\u0414\u0417-15-\u0411\u0414\u0417-15\u043a",
+    "department": 23,
+    "teachers": [
+      495
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1129,
+  "fields": {
+    "name": "\u0411-\u0421\u0421-14(1)",
+    "department": 23,
+    "teachers": [
+      499,
+      503,
+      505
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1130,
+  "fields": {
+    "name": "\u0411-\u0421\u0421-14(2)",
+    "department": 23,
+    "teachers": [
+      499,
+      505
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1131,
+  "fields": {
+    "name": "\u0411\u0414\u041a-13-01",
+    "department": 23,
+    "teachers": [
+      499
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1132,
+  "fields": {
+    "name": "\u0411-\u0413\u0414|\u0411-\u0421\u0421|\u0411-\u0422\u0423-15",
+    "department": 23,
+    "teachers": [
+      503
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1133,
+  "fields": {
+    "name": "\u0411-\u0421\u0421-14|15",
+    "department": 23,
+    "teachers": [
+      504,
+      524
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1134,
+  "fields": {
+    "name": "\u0411\u0413\u0414-16",
+    "department": 23,
+    "teachers": [
+      504
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1135,
+  "fields": {
+    "name": "\u0411\u0413\u0414-15",
+    "department": 23,
+    "teachers": [
+      504
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1136,
+  "fields": {
+    "name": "\u0411\u0421\u0421-16",
+    "department": 23,
+    "teachers": [
+      504
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1137,
+  "fields": {
+    "name": "\u0411\u0421\u0421-15",
+    "department": 23,
+    "teachers": [
+      504
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1138,
+  "fields": {
+    "name": "\u0411\u0414\u041a-15-01",
+    "department": 23,
+    "teachers": [
+      505,
+      518
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1139,
+  "fields": {
+    "name": "\u0411-\u0421\u0421|\u0411-\u0422\u0423-17",
+    "department": 23,
+    "teachers": [
+      506
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1140,
+  "fields": {
+    "name": "\u0411-\u0414\u0417|\u0411-\u0414\u041a-17",
+    "department": 23,
+    "teachers": [
+      506,
+      509,
+      511
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1141,
+  "fields": {
+    "name": "\u0411\u0414\u0417/\u0411\u041f\u0414\u041a-17",
+    "department": 23,
+    "teachers": [
+      506
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1142,
+  "fields": {
+    "name": "\u0411-\u0413\u0414|\u0411-\u0421\u0421|\u0411-\u0422\u0423-16",
+    "department": 23,
+    "teachers": [
+      506
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1143,
+  "fields": {
+    "name": "\u0411\u0414\u0417/\u0411\u0414\u041a-16",
+    "department": 23,
+    "teachers": [
+      506
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1144,
+  "fields": {
+    "name": "\u0411\u0414\u0417-16",
+    "department": 23,
+    "teachers": [
+      506,
+      511
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1145,
+  "fields": {
+    "name": "\u0411-\u0421\u0421-14|15(1)",
+    "department": 23,
+    "teachers": [
+      508
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1146,
+  "fields": {
+    "name": "\u0411-\u0421\u0421-14|\u0421\u0410-\u0421\u0421",
+    "department": 23,
+    "teachers": [
+      508
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1147,
+  "fields": {
+    "name": "\u0411\u0414\u0417-17-15",
+    "department": 23,
+    "teachers": [
+      511
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1148,
+  "fields": {
+    "name": "\u0411\u0414\u041a-17-15",
+    "department": 23,
+    "teachers": [
+      511
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1149,
+  "fields": {
+    "name": "\u0411-\u0414\u0417-14(1)",
+    "department": 23,
+    "teachers": [
+      512
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1150,
+  "fields": {
+    "name": "\u0411-\u0414\u0417-14(2)",
+    "department": 23,
+    "teachers": [
+      512
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1151,
+  "fields": {
+    "name": "\u0411-\u0414\u0417-14|15|16",
+    "department": 23,
+    "teachers": [
+      513
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1152,
+  "fields": {
+    "name": "\u0411\u0414\u0417-14/16",
+    "department": 23,
+    "teachers": [
+      513
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1153,
+  "fields": {
+    "name": "\u0411\u0413\u0423I\u0411-\u041c\u041d|\u0411-\u0423\u041f-15|16",
+    "department": 23,
+    "teachers": [
+      516
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1154,
+  "fields": {
+    "name": "\u0411\u041c\u041dI\u0411\u041f\u041c\u041d-15",
+    "department": 23,
+    "teachers": [
+      516
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1155,
+  "fields": {
+    "name": "\u0411-\u0413\u0423|\u0411-\u041a\u041b-15|14",
+    "department": 23,
+    "teachers": [
+      516
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1156,
+  "fields": {
+    "name": "\u0411\u041a\u041b-\u0411\u0413\u0423-14/15",
+    "department": 23,
+    "teachers": [
+      516
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1157,
+  "fields": {
+    "name": "\u0411-\u0417\u0420|\u0411-\u041c\u041e-14|16",
+    "department": 23,
+    "teachers": [
+      516
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1158,
+  "fields": {
+    "name": "\u0411\u0414\u0417-15-\u0411\u0414\u0417-15\u041a",
+    "department": 23,
+    "teachers": [
+      514
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1159,
+  "fields": {
+    "name": "\u0411\u0414\u0417-16\u0443/\u0411\u0414\u0417-15\u043a",
+    "department": 23,
+    "teachers": [
+      514
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1160,
+  "fields": {
+    "name": "\u0411-\u0413\u0414|\u0411-\u0421\u0421|\u0411-\u0422\u0423-15|16",
+    "department": 23,
+    "teachers": [
+      519
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1161,
+  "fields": {
+    "name": "\u0411\u0413\u0423-\u0411\u041c\u041d-\u0411\u0423\u041f-16",
+    "department": 23,
+    "teachers": [
+      520
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1162,
+  "fields": {
+    "name": "\u0411-\u041f\u0421|\u0411-\u0413\u0414|\u0411-\u0422\u0423-16|14",
+    "department": 23,
+    "teachers": [
+      522
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1163,
+  "fields": {
+    "name": "\u0411\u0414\u0417-16\u0443-\u0411\u0414\u041a-15",
+    "department": 23,
+    "teachers": [
+      527
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1164,
+  "fields": {
+    "name": "\u0411-\u0421\u0421-14|16",
+    "department": 23,
+    "teachers": [
+      528
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1165,
+  "fields": {
+    "name": "\u0411\u0421\u0421-15-\u0416\u0425/\u0421\u0410",
+    "department": 23,
+    "teachers": [
+      528
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1166,
+  "fields": {
+    "name": "\u0411-\u0413\u0423|\u0411-\u041c\u041d|\u0411-\u0423\u041f-17",
+    "department": 24,
+    "teachers": [
+      531
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1167,
+  "fields": {
+    "name": "\u0411-\u0421\u0421|\u0411-\u042d\u0423(\u041c\u0411\u043a)-16|17",
+    "department": 24,
+    "teachers": [
+      531
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1168,
+  "fields": {
+    "name": "\u0411\u042d\u0423-17",
+    "department": 24,
+    "teachers": [
+      531
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1169,
+  "fields": {
+    "name": "\u0411-\u041c\u041d|\u0411-\u042d\u0423-14|13",
+    "department": 24,
+    "teachers": [
+      532
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1170,
+  "fields": {
+    "name": "\u0411-\u0413\u0414|\u0411-\u0422\u0423-14",
+    "department": 24,
+    "teachers": [
+      532,
+      551
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1171,
+  "fields": {
+    "name": "\u0411-\u0413\u0414|\u0411-\u0421\u0421-14|15",
+    "department": 24,
+    "teachers": [
+      533
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1172,
+  "fields": {
+    "name": "\u0411\u042d\u0423-\u041c\u0411\u043a-14-15",
+    "department": 24,
+    "teachers": [
+      533
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1173,
+  "fields": {
+    "name": "\u0411-\u0413\u0423|\u0411-\u041c\u041d-15|16",
+    "department": 24,
+    "teachers": [
+      533,
+      534,
+      575
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1174,
+  "fields": {
+    "name": "\u0411-\u041c\u041d|\u0411-\u0423\u041f-14|15",
+    "department": 24,
+    "teachers": [
+      534
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1175,
+  "fields": {
+    "name": "\u0411-\u041c\u041d-14|\u0424\u041cI\u041c\u0421",
+    "department": 24,
+    "teachers": [
+      534
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1176,
+  "fields": {
+    "name": "\u0411\u041c\u041d-15",
+    "department": 24,
+    "teachers": [
+      534,
+      541
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1177,
+  "fields": {
+    "name": "\u0411\u041c\u041d-14",
+    "department": 24,
+    "teachers": [
+      534
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1178,
+  "fields": {
+    "name": "\u0411-\u041c\u041d-14(3)",
+    "department": 24,
+    "teachers": [
+      535
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1179,
+  "fields": {
+    "name": "\u0411-\u042d\u0423|\u0411-\u041c\u041d-15|16",
+    "department": 24,
+    "teachers": [
+      536
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1180,
+  "fields": {
+    "name": "\u0411\u0413\u0423-14",
+    "department": 24,
+    "teachers": [
+      538
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1181,
+  "fields": {
+    "name": "\u0411\u0413\u0423-16",
+    "department": 24,
+    "teachers": [
+      539,
+      548
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1182,
+  "fields": {
+    "name": "\u0411-\u041c\u041d-15|16",
+    "department": 24,
+    "teachers": [
+      541,
+      557
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1183,
+  "fields": {
+    "name": "\u0411\u0422\u0423-16-02/\u0411\u041b\u0413-15",
+    "department": 24,
+    "teachers": [
+      541
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1184,
+  "fields": {
+    "name": "\u0411-\u0413\u0423-15",
+    "department": 24,
+    "teachers": [
+      544,
+      571
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1185,
+  "fields": {
+    "name": "\u0411-\u0414\u0417|\u0411-\u0414\u041a|\u0411-\u041f\u0421-15|16",
+    "department": 24,
+    "teachers": [
+      548
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1186,
+  "fields": {
+    "name": "\u0411\u0414\u0417\u0443|\u0411\u041f-\u0414\u041a-15|16",
+    "department": 24,
+    "teachers": [
+      548
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1187,
+  "fields": {
+    "name": "\u0411\u0417\u0420/\u0411-\u041b\u0413|\u0411-\u0421\u0421|\u0411-\u042d\u0423-16|14",
+    "department": 24,
+    "teachers": [
+      548
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1188,
+  "fields": {
+    "name": "\u0411\u041b\u0413/\u0411\u042d\u0423-16/14",
+    "department": 24,
+    "teachers": [
+      548
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1189,
+  "fields": {
+    "name": "\u0411\u042d\u0423I\u0411\u0422\u0412-15",
+    "department": 24,
+    "teachers": [
+      551
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1190,
+  "fields": {
+    "name": "\u0411\u041c\u041d-15(\u0423\u0411|\u041c\u0421)",
+    "department": 24,
+    "teachers": [
+      551,
+      573
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1191,
+  "fields": {
+    "name": "\u0411-\u0411\u0418|\u0411-\u0422\u0414-15",
+    "department": 24,
+    "teachers": [
+      552
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1192,
+  "fields": {
+    "name": "\u0411-\u041c\u041d-15(1)",
+    "department": 24,
+    "teachers": [
+      555
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1193,
+  "fields": {
+    "name": "\u0411-\u041c\u041d-15(2)",
+    "department": 24,
+    "teachers": [
+      555
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1194,
+  "fields": {
+    "name": "\u0411-\u0413\u0423|\u0411-\u0423\u041f-14|15",
+    "department": 24,
+    "teachers": [
+      557
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1195,
+  "fields": {
+    "name": "\u0411-\u0423\u041f-15|16",
+    "department": 24,
+    "teachers": [
+      557,
+      574
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1196,
+  "fields": {
+    "name": "\u0411-\u041c\u041d-14",
+    "department": 24,
+    "teachers": [
+      557
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1197,
+  "fields": {
+    "name": "\u0411-\u041c\u041d-14(\u041c\u0422/\u0423\u0411)",
+    "department": 24,
+    "teachers": [
+      557
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1198,
+  "fields": {
+    "name": "\u0411-\u041c\u041d-14(\u0424\u041c/\u041c\u0421)",
+    "department": 24,
+    "teachers": [
+      557
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1199,
+  "fields": {
+    "name": "\u0411-\u0411\u0418|\u0411-\u041e\u0420|\u0411-\u0420\u041a|\u0411-\u0422\u0414-16|15",
+    "department": 24,
+    "teachers": [
+      558
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1200,
+  "fields": {
+    "name": "\u0411-\u0422\u0414|\u0411-\u042d\u0423-15",
+    "department": 24,
+    "teachers": [
+      561
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1201,
+  "fields": {
+    "name": "\u0411-\u041c\u041d|\u0411-\u0423\u041f-15",
+    "department": 24,
+    "teachers": [
+      561
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1202,
+  "fields": {
+    "name": "\u0411\u042d\u0423-15(\u041c\u0411\u043a|\u041c\u042d)",
+    "department": 24,
+    "teachers": [
+      562
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1203,
+  "fields": {
+    "name": "\u0411-\u041c\u041d-14(\u041c\u0422|\u0423\u0411)",
+    "department": 24,
+    "teachers": [
+      563
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1204,
+  "fields": {
+    "name": "\u0411-\u041c\u041d-14(\u0424\u041c|\u041c\u0421)",
+    "department": 24,
+    "teachers": [
+      563
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1205,
+  "fields": {
+    "name": "\u0411-\u041c\u041d-14|15",
+    "department": 24,
+    "teachers": [
+      566
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1206,
+  "fields": {
+    "name": "\u0411-\u041c\u041d-15(\u0423\u0411|\u041c\u0421)",
+    "department": 24,
+    "teachers": [
+      568,
+      575
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1207,
+  "fields": {
+    "name": "\u0411\u0413\u0414/\u0411\u041b\u0413/\u0411\u0422\u0423/\u0411\u042d\u0423-14/15/16",
+    "department": 24,
+    "teachers": [
+      569
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1208,
+  "fields": {
+    "name": "\u0411-\u0413\u0423|\u0411-\u041c\u041d-16",
+    "department": 24,
+    "teachers": [
+      569
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1209,
+  "fields": {
+    "name": "\u0411-\u0423\u041f-14|15",
+    "department": 24,
+    "teachers": [
+      569
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1210,
+  "fields": {
+    "name": "\u0411\u0413\u0423-14/\u0411\u0413\u0423(\u0421\u0418)-15",
+    "department": 24,
+    "teachers": [
+      570
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1211,
+  "fields": {
+    "name": "\u0411-\u0413\u0423-14|15",
+    "department": 24,
+    "teachers": [
+      573
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1212,
+  "fields": {
+    "name": "\u0411-\u041c\u041d|\u0411-\u042d\u0423-15|16",
+    "department": 24,
+    "teachers": [
+      573
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1213,
+  "fields": {
+    "name": "\u0411-\u041c\u041d|\u0411-\u042d\u0423-14",
+    "department": 24,
+    "teachers": [
+      573
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1214,
+  "fields": {
+    "name": "\u0411\u0413\u0423/\u0411\u0423\u041f-14",
+    "department": 24,
+    "teachers": [
+      574
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1215,
+  "fields": {
+    "name": "\u0411\u0413\u0423-14(01/\u0416\u0425)",
+    "department": 24,
+    "teachers": [
+      574
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1216,
+  "fields": {
+    "name": "\u0411-\u0411\u0418|\u0411-\u0413\u0423|\u0411-\u0414\u041a|\u0411-\u041e\u0420-14|15",
+    "department": 24,
+    "teachers": [
+      577
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1217,
+  "fields": {
+    "name": "\u0411-\u0413\u0423/\u0411\u0414\u041a-15/14",
+    "department": 24,
+    "teachers": [
+      577
+    ]
+  }
+},
+{
+  "model": "app.group",
+  "pk": 1218,
+  "fields": {
+    "name": "\u0411-\u0413\u0423-15/14",
+    "department": 24,
+    "teachers": [
+      579
+    ]
+  }
+}
+]

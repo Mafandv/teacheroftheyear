@@ -1,0 +1,75 @@
+<form action="{% url 'vote' %}" method="post">
+    {% csrf_token %}
+     {{ teacher_form.management_form }}
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th>
+
+                    </th>
+                    <th>
+                        Преподаватель делится с аудиторией только нужной и информативной информацией
+                    </th>
+                    <th>
+                        На лекциях приводятся примеры из реальной профессиональной деятельности
+                    </th>
+                    <th>
+                        Преподаватель объясняет значение своего предмета для вашей будущей профессии
+                    </th>
+                    <th>
+                        Преподаватель интересно преподносит необходимую информацию
+                    </th>
+                    <th>
+                        Преподаватель сочетает устный доклад с наглядным представлением изучаемого материала
+                    </th>
+                    <th>
+                        На практических занятиях применяется модельный метод обучения (деловые игры: урок-суд, пресс-конференция и т.п.)
+                    </th>
+                    <th>
+                        Оценки преподавателя справедливы и отражают заслуги студента
+                    </th>
+                    <th>
+                        Преподаватель требовательно относится к выполнению своих заданий студентами
+                    </th>
+                </tr>
+            </thead>
+            {% for form in teacher_form %}
+                <tr>
+                    <td>
+                        <input hidden name="{{ form.teacher.html_name  }}" value="{{ form.teacher.value  }}">
+                        <input hidden name="{{ form.t_full_name.html_name  }}" value="{{ form.t_full_name.value  }}">
+                        {{ form.t_full_name.value|default_if_none:"" }}
+                    </td>
+                    <td>
+                        {{ form.mark1 }}
+                    </td>
+                    <td>
+                        {{ form.mark2 }}
+                    </td>
+                    <td>
+                        {{ form.mark3 }}
+                    </td>
+                    <td>
+                        {{ form.mark4 }}
+                    </td>
+                    <td>
+                        {{ form.mark5 }}
+                    </td>
+                    <td>
+                        {{ form.mark6 }}
+                    </td>
+                    <td>
+                        {{ form.mark7 }}
+                    </td>
+                    <td>
+                        {{ form.mark8 }}
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+    <div class="text-center">
+        <button type="submit" class="btn btn-success">Завершить</button>
+    </div>
+</form>

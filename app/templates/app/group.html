@@ -1,0 +1,19 @@
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+<form id="group-form" method="post" class="form-inline text-center">
+    <div>
+        {% csrf_token %}
+        <label for="group-input">
+            Введите группу:
+        </label>
+        <div class="form-group text-left">
+            <input type="text" required class="form-control"  id="group-input" name="{{ group_form.name.html_name }}" autocomplete="off">
+            {{ group_form.name.errors }}
+        </div>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-success" id="group-btn">Далее</button>
+    </div>
+
+{#    <button type="button" class="btn" id="group-btn-change">Изменить</button>#}
+</form>
+
