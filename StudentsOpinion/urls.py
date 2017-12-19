@@ -26,7 +26,7 @@ urlpatterns = [
     url(r'^group', app.views.group, name='group'),
     url(r'^vote', app.views.vote, name='vote'),
     url(r'^import_data', app.views.import_data, name='import_data'),
-
+    url(r'^export_xls', app.views.export_xls, name='export_xls'),
 
     url(r'^login/$',
         django.contrib.auth.views.login,

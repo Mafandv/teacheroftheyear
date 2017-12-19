@@ -208,3 +208,68 @@ def import_data(request):
         group.save()
 
     return HttpResponse("OK " + s)
+
+
+def export_xls(request):
+    import xlwt
+    response = HttpResponse(content_type='application/ms-excel')
+    response['Content-Disposition'] = 'attachment; filename=result.xls'
+    wb = xlwt.Workbook(encoding='utf-8')
+    ws = wb.add_sheet("Результаты")
+
+    votes = Vote.objects.select_related('teacher', 'response_student', 'response_student__group').all()
+    row_num = 0
+
+    columns = [
+        (u"Дата", 8000),
+        (u"Номер бейджа", 8000),
+        (u"ФИО Студента", 8000),
+        (u"Группа", 8000),
+        (u"Преподаватель", 8000),
+        (u"Ценная информация", 8000),
+        (u"Примеры из жизни", 8000),
+        (u"Значение предмета", 8000),
+        (u"Интерес", 8000),
+        (u"Модельный метод", 8000),
+        (u"Требовательный", 8000),
+        (u"Справедливость", 8000),
+        (u"Сумма баллов", 8000),
+    ]
+
+    font_style = xlwt.XFStyle()
+    font_style.font.bold = True
+
+    for col_num in range(len(columns)):
+        ws.write(row_num, col_num, columns[col_num][0], font_style)
+        # set column width
+        ws.col(col_num).width = columns[col_num][1]
+
+    font_style = xlwt.XFStyle()
+    font_style.alignment.wrap = 1
+
+    for obj in votes:
+        row_num += 1
+        s = int(obj.mark1)*3 + int(obj.mark2)*2 + int(obj.mark3) + int(obj.mark4)*3 + int(obj.mark5)*2 + int(obj.mark6)*4 + int(obj.mark7)*3 + int(obj.mark8)*2
+        row = [
+            obj.response_student.date.date(),
+            obj.response_student.badge_number,
+            obj.response_student.student_name,
+            obj.response_student.group.name,
+            obj.teacher.last_name,
+            obj.mark1,
+            obj.mark2,
+            obj.mark3,
+            obj.mark4,
+            obj.mark5,
+            obj.mark6,
+            obj.mark7,
+            obj.mark8,
+            s
+        ]
+        for col_num in range(len(row)):
+            ws.write(row_num, col_num, str(row[col_num]), font_style)
+
+    wb.save(response)
+    return response
+
+
