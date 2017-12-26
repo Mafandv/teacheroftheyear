@@ -61,7 +61,7 @@ class Vote(models.Model):
     ('4','4 балла'),
     ('5','5 баллов'),
     )
-    teacher = models.ForeignKey(Teacher)
+    teacher = models.ForeignKey(Teacher, related_name='votes')
     mark1 = models.CharField(max_length=1, choices=MARKS, default='0')
     mark2 = models.CharField(max_length=1, choices=MARKS, default='0')
     mark3 = models.CharField(max_length=1, choices=MARKS, default='0')

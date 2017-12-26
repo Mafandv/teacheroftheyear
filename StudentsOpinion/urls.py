@@ -27,6 +27,8 @@ urlpatterns = [
     url(r'^vote', app.views.vote, name='vote'),
     url(r'^import_data', app.views.import_data, name='import_data'),
     url(r'^export_xls', app.views.export_xls, name='export_xls'),
+    url(r'^export_results_xls', app.views.export_results_xls, name='export_results_xls'),
+    url(r'^check_dublicate', app.views.check_dublicate, name='check_dublicate'),
 
     url(r'^login/$',
         django.contrib.auth.views.login,

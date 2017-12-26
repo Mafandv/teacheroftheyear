@@ -273,3 +273,103 @@ def export_xls(request):
     return response
 
 
+def check_dublicate(request):
+    check = []
+    dublicate = []
+    response_students = ResponseStudent.objects.all()
+    for r in response_students:
+        if r.badge_number in check:
+            dublicate.append(r.pk)
+        else:
+            check.append(r.badge_number)
+
+    return HttpResponse(str(len(dublicate)))
+
+
+def export_results_xls(request):
+    import xlwt
+    response = HttpResponse(content_type='application/ms-excel')
+    response['Content-Disposition'] = 'attachment; filename=result.xls'
+    wb = xlwt.Workbook(encoding='utf-8')
+    ws = wb.add_sheet("Результаты")
+
+    votes = Vote.objects.select_related('teacher', 'response_student', 'response_student__group').all()
+    teachers = Teacher.objects.select_related('department').all()
+    row_num = 0
+
+    columns = [
+        (u"Кафедра", 8000),
+        (u"Преподаватель", 8000),
+        (u"Сумма голосов", 8000),
+        (u"Количство голосов", 8000),
+        (u"Результат", 8000),
+    ]
+
+    font_style_head = xlwt.XFStyle()
+    font_style_head.font.bold = True
+
+    for col_num in range(len(columns)):
+        ws.write(row_num, col_num, columns[col_num][0], font_style_head)
+        # set column width
+        ws.col(col_num).width = columns[col_num][1]
+
+    font_style = xlwt.XFStyle()
+    font_style.alignment.wrap = 1
+
+    for t in teachers:
+        t.sum_votes = 0.0
+        t.count_votes = 0.0
+        t.result = 0.0
+        for obj in t.votes.all():
+            s = int(obj.mark1) * 3 + int(obj.mark2) * 2 + int(obj.mark3) + int(obj.mark4) * 3 + int(
+                obj.mark5) * 2 + int(obj.mark6) * 4 + int(obj.mark7) * 3 + int(obj.mark8) * 2
+            if s > 0:
+                t.sum_votes += s
+                t.count_votes += 1
+        if t.count_votes != 0:
+            t.result = t.sum_votes / t.count_votes
+
+    ttt = list(teachers)
+
+    ttt.sort(key=lambda x: x.result, reverse=True)
+
+    deps = {}
+
+    for t in ttt:
+        row_num += 1
+        row = [
+            t.department.name,
+            t.last_name,
+            t.sum_votes,
+            t.count_votes,
+            t.result
+        ]
+        if not t.department.name in deps:
+            deps[t.department.name] = []
+
+        deps[t.department.name].append(row)
+
+        for col_num in range(len(row)):
+            ws.write(row_num, col_num, str(row[col_num]), font_style)
+
+    n = 0
+    for d in deps.keys():
+        n += 1
+        ws = wb.add_sheet(str(n))
+        row_num = 0
+
+        for col_num in range(len(columns)):
+            ws.write(row_num, col_num, columns[col_num][0], font_style_head)
+            ws.col(col_num).width = columns[col_num][1]
+
+        for row in deps[d]:
+            row_num += 1
+            for col_num in range(len(row)):
+                ws.write(row_num, col_num, str(row[col_num]), font_style)
+
+
+    wb.save(response)
+    return response
+
+
+
