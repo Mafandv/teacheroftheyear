@@ -320,7 +320,13 @@ def export_results_xls(request):
         t.sum_votes = 0.0
         t.count_votes = 0.0
         t.result = 0.0
-        for obj in t.votes.all():
+        check = []
+        for obj in t.votes.select_related('response_student').all():
+            if obj.response_student.badge_number in check:
+                continue
+
+            check.append(obj.response_student.badge_number)
+
             s = int(obj.mark1) * 3 + int(obj.mark2) * 2 + int(obj.mark3) + int(obj.mark4) * 3 + int(
                 obj.mark5) * 2 + int(obj.mark6) * 4 + int(obj.mark7) * 3 + int(obj.mark8) * 2
             if s > 0:
